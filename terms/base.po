@@ -1,0 +1,3623 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo zh_TW overrides\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_users_apikeys_description__scope
+msgid ""
+"\n"
+"        A token with scope 'A' can only be used for endpoints requiring a bearer token of scope 'A' and\n"
+"        can't be used for endpoints requiring any other scope than 'A'.\n"
+"        "
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid ""
+"\n"
+"Example: %(example)s"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid ""
+"\n"
+"User: %(user)s\n"
+"Groups: %(allowed_groups_msg)s"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_lang__time_format__%i:%m:%s_%p
+msgid " 1:00:00 PM"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
+msgid "# Records"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+msgid "%(date_label)s - %(author)s"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/fields.py:0 code:addons/models.py:0
+msgid ""
+"%(previous_message)s\n"
+"\n"
+"Implicitly accessed through '%(document_kind)s' (%(document_model)s)."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/properties_base_definition.py:0
+msgid "%s Properties"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/fields.py:0
+msgid "(Record: %(record)s, User: %(user)s)"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "- Only a root company can be set on “%(record)s”. Currently set to “%(company)s”"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "- Record is company “%(company)s” while “%(field)s” (%(fname)s: %(values)s) belongs to another company."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "- “%(record)s” belongs to company “%(company)s” while “%(field)s” (%(fname)s: %(values)s) belongs to another company."
+msgstr ""
+
+#. module: base
+#: model:website,contact_us_link_url:base.default_website
+msgid "/contactus"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0
+msgid "0123456789016 or 1234545678781 [13 digits]"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0 code:addons/partner_identifiers.py:0
+msgid "1-01-85004-3 or 101850043"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0 code:addons/partner_identifiers.py:0
+msgid "10XXXXXXXXY or 20XXXXXXXXY or 15XXXXXXXXY or 16XXXXXXXXY or 17XXXXXXXXY"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0 code:addons/partner_identifiers.py:0
+msgid "11111111111 (NIN) or 2222222222 (VKN)"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "123-45-67890 or 1234567890"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0
+msgid "1234567 or 1234567-8 or 12345-1234567-8"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0 code:addons/partner_identifiers.py:0
+msgid "12345678 or UA12345678 (EDRPOU), 1234567890 (RNOPP) or 123456789012 (IPN)"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0
+msgid "123456782 or 123456782RT0001"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0
+msgid "123456789 (TIN) or 12345678901234 (PINFL)"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0 code:addons/partner_identifiers.py:0
+msgid "1792060346001 or 1792060346"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "3002707692 [Tax identification number]"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0 code:addons/partner_identifiers.py:0
+msgid "310175397400003 [Fifteen digits, first and last digits should be \"3\"]"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0 code:addons/partner_identifiers.py:0
+msgid "49-098-576 or 49098576"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "700 Number"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_1 model_terms:res.partner,website_description:base.res_partner_10 model_terms:res.partner,website_description:base.res_partner_12 model_terms:res.partner,website_description:base.res_partner_5
+#, fuzzy
+msgid "<a href=\"#\" class=\"btn btn-primary o_translate_inline\">Discover more</a>"
+msgstr "<a href=\"#\" class=\"btn btn-primary o_translate_inline\">發現更多</a>"
+
+#. module: base
+#: model_terms:ir.actions.act_window,help:base.action_ir_mail_server_list
+msgid ""
+"<b class=\"o_view_nocontent_smiling_face\">\n"
+"                        No Outgoing Servers yet\n"
+"                    </b>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form
+msgid "<i class=\"oi d-none d-md-block\" data-icon=\"luggage\" title=\"Position\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form model_terms:ir.ui.view,arch_db:base.view_users_simple_form
+msgid "<i class=\"oi d-none d-md-inline-flex\" data-icon=\"business\" title=\"Company\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form model_terms:ir.ui.view,arch_db:base.view_users_form
+msgid "<i class=\"oi oi-filled d-none d-md-block\" data-icon=\"mail\" title=\"Email\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_users_form
+msgid ""
+"<i class=\"oi oi-filled d-none d-md-block\" data-icon=\"mail\" title=\"Login / Email\" invisible=\"login != email\"/>\n"
+"                                    <i class=\"oi d-none d-md-block\" data-icon=\"key\" title=\"Login\" invisible=\"login == email\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form model_terms:ir.ui.view,arch_db:base.view_users_form
+msgid "<i class=\"oi oi-filled d-none d-md-block\" data-icon=\"phone\" title=\"Phone\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form model_terms:ir.ui.view,arch_db:base.view_users_simple_form
+msgid "<i class=\"oi oi-filled d-none d-md-inline-flex\" data-icon=\"mail\" title=\"Email\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form model_terms:ir.ui.view,arch_db:base.view_users_simple_form
+msgid "<i class=\"oi oi-filled d-none d-md-inline-flex\" data-icon=\"phone\" title=\"Phone\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_res_users_kanban
+msgid "<i class=\"oi oi-filled me-1\" data-icon=\"mail\" role=\"img\" aria-label=\"Login\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_res_users_kanban
+msgid "<i class=\"oi oi-filled\" data-icon=\"circle\" role=\"img\" aria-label=\"Invalid\" title=\"Invalid\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_res_users_kanban
+msgid "<i class=\"oi oi-filled\" data-icon=\"circle\" role=\"img\" aria-label=\"Ok\" title=\"Ok\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.res_partner_kanban_view model_terms:ir.ui.view,arch_db:base.view_partner_form
+msgid "<i class=\"oi oi-fw me-1\" data-icon=\"location_on\" title=\"Location\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form
+msgid "<i class=\"oi oi-fw me-1\" data-icon=\"luggage\" title=\"Position\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.ir_access_form_view
+msgid ""
+"<i class=\"oi oi-fw o_button_icon\" data-icon=\"east\"/>\n"
+"                                Access rights documentation"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_users_form_simple_modif
+msgid "<i class=\"oi oi-fw oi-filled d-none d-md-inline-flex\" data-icon=\"mail\" title=\"Email\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_users_form_simple_modif
+msgid "<i class=\"oi oi-fw oi-filled d-none d-md-inline-flex\" data-icon=\"phone\" title=\"Phone\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.res_partner_kanban_view
+msgid "<i class=\"oi oi-fw oi-filled me-1 text-muted\" data-icon=\"mail\" title=\"Email\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.res_partner_kanban_view
+msgid "<i class=\"oi oi-fw oi-filled me-1 text-muted\" data-icon=\"phone\" title=\"Phone\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form model_terms:ir.ui.view,arch_db:base.view_res_company_kanban
+msgid "<i class=\"oi oi-fw oi-filled me-1\" data-icon=\"mail\" title=\"Email\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form model_terms:ir.ui.view,arch_db:base.view_res_company_kanban
+msgid "<i class=\"oi oi-fw oi-filled me-1\" data-icon=\"phone\" title=\"Phone\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_server_action_form
+msgid "<i class=\"oi pe-2\" data-icon=\"warning\" title=\"Warning\"/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.ir_access_kanban_view
+msgid "<span class=\"me-1\">For</span>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.ir_access_kanban_view
+msgid "<span class=\"me-1\">On</span>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_users_form model_terms:ir.ui.view,arch_db:base.view_users_form_simple_modif
+msgid ""
+"<span class=\"o_form_label\">\n"
+"                                            Change Password\n"
+"                                        </span>\n"
+"                                        <span class=\"text-muted\">\n"
+"                                            Update if compromised.\n"
+"                                        </span>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_users_form model_terms:ir.ui.view,arch_db:base.view_users_form_simple_modif
+msgid ""
+"<span class=\"text-muted\">\n"
+"                                            Check if they are yours.\n"
+"                                        </span>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_users_form model_terms:ir.ui.view,arch_db:base.view_users_form_simple_modif
+msgid ""
+"<span class=\"text-muted\">\n"
+"                                            Connect external services.\n"
+"                                        </span>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_server_action_form
+msgid "<span invisible=\"evaluation_type != 'value' or value_field_to_show != 'x2many'\">by</span>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_server_action_form
+msgid ""
+"<span invisible=\"evaluation_type != 'value' or value_field_to_show == 'x2many'\">to</span>\n"
+"                                <span invisible=\"evaluation_type != 'sequence'\">with</span>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
+msgid "<span invisible=\"impacted_application_count == 1\"> apps</span><span invisible=\"impacted_application_count &gt; 1\"> app</span>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
+msgid "<span invisible=\"impacted_module_count == 1\"> modules</span><span invisible=\"impacted_module_count &gt; 1\"> module</span>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
+msgid "<span invisible=\"model_count == 1\"> models</span><span invisible=\"model_count &gt; 1\"> model</span>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_groups_form
+msgid "<span> days</span>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.server_action_history_wizard_view
+msgid "<span>No diff available</span>"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_partner_bank__clearing_number
+msgid "A clearing number (or routing number) refers to a bank, branch, or location and is used by domestic money transfer protocols (from/to bank accounts in the same country)."
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_3
+#, fuzzy
+msgid ""
+"A non-profit international educational and scientific\n"
+"                    organisation, hosting three departments (aeronautics and\n"
+"                    aerospace, environmental and applied fluid dynamics, and\n"
+"                    turbomachinery and propulsion)."
+msgstr ""
+"一個非營利性國際教育和科學組織，\n"
+"                    擁有三個部門（航空航天、\n"
+"                    環境和應用流體動力學，以及\n"
+"                    渦輪機械與推進）。"
+
+# suggestion from previous Odoo version
+#. module: base
+#: model:res.partner,website_short_description:base.res_partner_3
+#, fuzzy
+msgid "A non-profit international educational and scientific organisation, hosting three departments (aeronautics and aerospace, environmental and applied fluid dynamics, and turbomachinery and propulsion)."
+msgstr "非營利性國際教育和科學組織，下設三個系（航空航天系、環境和應用流體力學系以及透平機械和推進系）。"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_groups_form
+msgid "A restriction is an access rights without group that is globally applied                                             and that cannot be bypassed. A permission is an access right associated with a group                                             that is constrained by their domain and the restrictions"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+#, fuzzy
+msgid "A sequence must only be used with character fields."
+msgstr "序列只可與字元欄位一起使用。"
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "A00012345"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "ACN"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_groups__access_count
+msgid "Access Count"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.ir_access_search_view
+msgid "Access Right"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_groups.py:0 model:ir.model.fields,field_description:base.field_res_groups__access_ids
+msgid "Access Rules"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.ir_access_form_view
+msgid "Access name..."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.ir_access_form_view
+msgid ""
+"Access rights without group apply global restrictions that cannot be bypassed.<br/>\n"
+"                            Access rights associated with a group grant permissions. These are constrained by their domain and the restrictions."
+msgstr ""
+
+#. module: base
+#: model:res.groups,comment:base.group_user
+msgid "Access to the home menu with limited access"
+msgstr ""
+
+#. module: base
+#: model:res.groups,comment:base.group_user_regular
+msgid "Access to the home menu with regular access"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_access.py:0
+msgid "Accesses with domain can not be applied on model Access itself."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_partner_bank__holder_name
+msgid "Account holder name in case it is different than the name of the partner."
+msgstr ""
+
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_2 model_terms:res.partner,website_description:base.res_partner_4
+msgid ""
+"Acme Corporation designs, develops, integrates and supports HR and Supply\n"
+"                Chain processes in order to make our customers more productive,\n"
+"                responsive and profitable."
+msgstr ""
+
+#. module: base
+#: model:res.partner,website_short_description:base.res_partner_2 model:res.partner,website_short_description:base.res_partner_4
+msgid "Acme Corporation designs, develops, integrates and supports HR and Supply Chain processes in order to make our customers more productive, responsive and profitable."
+msgstr ""
+
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_2 model_terms:res.partner,website_description:base.res_partner_4
+msgid ""
+"Acme Corporation integrates ERP for Global Companies and supports PME\n"
+"                with Open Sources software to manage their businesses. Our\n"
+"                consultants are experts in the following areas:"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+msgid "Actual Code"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_users_form model_terms:ir.ui.view,arch_db:base.view_users_form_simple_modif
+msgid "Add API Key"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.act_report_xml_view
+msgid "Add to the 'Print' menu"
+msgstr ""
+
+#. module: base
+#: model:res.partner,website_short_description:base.res_partner_address_31
+msgid "Addison Olson is a mighty sales representative at Acme Corporation."
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_address_31
+#, fuzzy
+msgid ""
+"Addison Olson works in IT sector <b>since 10 years</b>. He is known\n"
+"    notably for selling mouse traps. With that trick he cut\n"
+"    IT budget by almost half within the last 2 years."
+msgstr ""
+"Addison Olson works in IT sector <b>since 10 years</b>. He is known\n"
+"    notably for selling mouse traps. With that trick he cut\n"
+"    IT budget by almost half within the last 2 years."
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company__additional_identifiers model:ir.model.fields,field_description:base.field_res_partner__additional_identifiers model:ir.model.fields,field_description:base.field_res_users__additional_identifiers
+msgid "Additional Identifiers"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner__address model:ir.model.fields,field_description:base.field_res_users__address
+msgid "Address (without name)"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner__address_inline model:ir.model.fields,field_description:base.field_res_users__address_inline
+msgid "Address inline (without name)"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_country_state__name
+msgid "Administrative divisions of a country. E.g. Fed. State, Department, Canton"
+msgstr ""
+
+#. module: base
+#: model_terms:res.company,invoice_terms_html:base.demo_company_id
+msgid "All our contractual relations will be governed exclusively by Indonesia law."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_model_fields__allowed_index_types
+msgid "Allowed Index Types"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_model.py:0
+msgid ""
+"An error occurred while evaluating the domain:\n"
+"%(error)s"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid ""
+"Another model is using the record you are trying to delete.\n"
+"\n"
+"The troublemaker is: %(model_display)s\n"
+"Thanks to the following constraint: %(field_display)s\n"
+"How about archiving the record instead?"
+msgstr ""
+
+#. module: base
+#: model:ir.actions.act_window,name:base.action_view_base_module_upgrade model:ir.ui.menu,name:base.menu_view_base_module_upgrade
+msgid "Apply Schedule Upgrades"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_1 model_terms:res.partner,website_description:base.res_partner_10 model_terms:res.partner,website_description:base.res_partner_12 model_terms:res.partner,website_description:base.res_partner_5
+#, fuzzy
+msgid "As a team, we are happy to contribute to this event."
+msgstr "作為一個團隊，我們很高興為這次活動做出貢獻."
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_actions_report__attachment
+msgid "Attachment Name"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Australian Company Number."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Austrian company ID number (UID)."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company__available_additional_identifiers_metadata model:ir.model.fields,field_description:base.field_res_partner__available_additional_identifiers_metadata model:ir.model.fields,field_description:base.field_res_users__available_additional_identifiers_metadata
+msgid "Available Additional Identifiers Metadata"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_users_apikeys_description__available_scopes_count
+msgid "Available Scopes Count"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model:res.partner,website_short_description:base.res_partner_12
+#, fuzzy
+msgid "Azure Interior brings honesty and seriousness to wood industry while helping customers deal with trees, flowers and fungi."
+msgstr "Azure Interior 在幫助客戶處理樹木、花卉和真菌的同時，為木材行業帶來誠實和認真."
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_model_fields__index__btree
+msgid "B-tree"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_model_fields__index__btree_not_null
+msgid "B-tree, excluding nulls"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "BCE/KBO"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner_bank__bank_bic
+msgid "BIC/SWIFT"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0 model:res.country,vat_label:base.hk
+msgid "BRN"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner_bank.py:0
+msgid "BSB is not valid (expected format is \"NNN-NNN\"). Please rectify."
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_users__barcode
+#, fuzzy
+msgid "Badge ID"
+msgstr "員工條碼 ID"
+
+#. module: base
+#: model:ir.model,name:base.model_res_partner_bank
+msgid "Bank Account"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_clearing_label
+msgid "Bank Account Clearing Number Label"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner_bank.py:0
+msgid "Bank Code length must be 3."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_partner_bank__bank_bic
+msgid "Bank Identifier Code for international wires in the format Bank Code (4 letters) + Country Code (2 letters) + Location Code (2 letters/numbers) + Optional Branch Code (3 letters/numbers)."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_bank_form
+msgid "Bank Information"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner_bank.py:0
+msgid "Bank SARIE ID must consist of 4 upper case English letter."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_partner_bank__account_type
+msgid "Bank account type: Normal, IBAN, CLABE, or other from localization. Inferred from the bank account number."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_currency_form
+msgid "Base Currency"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_currency_form
+msgid "Base/Unit"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Belgian Crossroads Bank for Enterprises number."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Belgian national identification number."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_access.py:0
+msgid ""
+"Blame the following accesses:\n"
+"%s"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__bold
+msgid "Bold"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__boxed
+msgid "Boxed"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Branch Code"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Branch Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Branch Number of your company, leave empty for headquarters."
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_address_15
+#, fuzzy
+msgid ""
+"Brandon works in IT sector <b>since 10 years</b>. He is known\n"
+"                notably for selling mouse traps. With that trick he cut\n"
+"                IT budget by almost half within the last 2 years."
+msgstr ""
+"Brandon <b>在 IT 行業工作了 10 年</b>。 他是眾所周知的\n"
+"                 尤其是出售捕鼠器。 用那個把戲他砍了\n"
+"                 IT 預算在過去 2 年內減少了近一半."
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Brazilian company identification number. 14 digits."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_device__browser_language model:ir.model.fields,field_description:base.field_res_session__browser_language
+msgid "Browser Language"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_device__browser_version model:ir.model.fields,field_description:base.field_res_session__browser_version
+msgid "Browser Version"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Brønnøysund nr"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__bubble
+msgid "Bubble"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Business ID"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Business ID (Y-tunnus)."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Business Registration Number."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0 code:addons/partner_identifiers.py:0
+msgid "CHE-123.456.788 TVA or CHE-123.456.788 MWST or CHE-123.456.788 IVA"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/bank_account_number.py:0
+msgid "CLABE should be a string of 18 digits."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0 model:res.country,vat_label:base.br
+msgid "CNPJ"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.wizard_lang_export
+msgid ""
+"CSV format: you may edit it directly with your favorite spreadsheet software,\n"
+"                                    the rightmost column (value) contains the translations"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "CVR"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "Cannot grab a lock on records"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_attachment.py:0
+msgid "Cannot search, too many attachments"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "Cannot update a record without specifying its id or xml_id"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_ui_view__type__card
+msgid "Card"
+msgstr ""
+
+#. module: base
+#: model_terms:res.company,invoice_terms_html:base.demo_company_id
+msgid "Certain countries apply withholding at source on the amount of invoices, in accordance with their internal legislation. Any withholding at source will be paid by the client to the tax authorities. Under no circumstances can ID Company become involved in costs related to a country's legislation. The amount of the invoice will therefore be due to ID Company in its entirety and does not include any costs relating to the legislation of the country in which the client is located."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Citizen Identification"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner_bank__clearing_label_id
+msgid "Clearing Label"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_server_action_history_wizard__code_diff
+msgid "Code Diff"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0 model_terms:ir.ui.view,arch_db:base.view_server_action_form
+msgid "Code History"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_address_28
+#, fuzzy
+msgid ""
+"Colleen Diaz works in IT sector <b>since 10 years</b>. He is known\n"
+"                notably for selling mouse traps. With that trick he cut\n"
+"                IT budget by almost half within the last 2 years."
+msgstr ""
+"Colleen Diaz <b>在 IT 領域工作了 10 年</b>。 他是眾所周知的\n"
+"                 尤其是出售捕鼠器。 用那個把戲他砍了\n"
+"                 IT 預算在過去 2 年內減少了近一半."
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__column
+msgid "Column"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_1 model_terms:res.partner,website_description:base.res_partner_10 model_terms:res.partner,website_description:base.res_partner_12 model_terms:res.partner,website_description:base.res_partner_5
+#, fuzzy
+msgid "Come see us live, we hope to meet you!"
+msgstr "歡迎觀看我們的直播，希望見到你！"
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Commercial Registration Number"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__compact
+msgid "Compact"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_currency_rate__company_currency_id
+msgid "Company Currency"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form
+msgid "Company Employer"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Company identification number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_qweb_fields.py:0
+msgid "Company used for the original currency (only used for t-out). By default use the user company"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner__contact_address_inline model:ir.model.fields,field_description:base.field_res_users__contact_address_inline
+msgid "Complete Address inline"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_ir_actions_todo
+msgid "Configuration Wizard"
+msgstr ""
+
+#. module: base
+#: model:res.company,free_order_label:base.demo_company_id model:res.company,free_order_label:base.main_company
+msgid "Confirm Order"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model:res.partner.category,name:base.res_partner_category_8
+#, fuzzy
+msgid "Consulting Services"
+msgstr "顧問服務"
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Consumer Identification"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/fields_relational.py:0
+msgid "Couldn't generate a company-dependent domain for field %s. The model doesn't have a 'company_id' or 'company_ids' field, and isn't company-dependent either."
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+#, fuzzy
+msgid "Create %(model_name)s"
+msgstr "創建 %(model_name)s"
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__cd
+msgid "Create, Delete"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__cr
+msgid "Create, Read"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__crd
+msgid "Create, Read, Delete"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__cru
+msgid "Create, Read, Update"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__crud
+msgid "Create, Read, Update, Delete"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__cu
+msgid "Create, Update"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__cud
+msgid "Create, Update, Delete"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Croatian company ID number."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_cron.py:0
+msgid "Cron job %(name)s (%(id)s) is failing and will be deactivated if you don't take action. More information can be found in the server logs around %(time)s."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_device__is_current model:ir.model.fields,field_description:base.field_res_session__is_current
+msgid "Current"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_2 model_terms:res.partner,website_description:base.res_partner_4
+#, fuzzy
+msgid "Customer Relationship Management"
+msgstr "客戶關係管理(CRM)"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.ir_access_form_view model_terms:ir.ui.view,arch_db:base.view_model_form
+msgid "Customize"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Czech business identification number (IČO)."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0 code:addons/partner_identifiers.py:0
+msgid "DE123456788 or 12/345/67890"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "DUNS"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Danish Central Business Register number."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Danish tax entity number (SE-nummer)."
+msgstr ""
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_services_databases
+msgid "Databases"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_qweb_fields.py:0
+msgid "Date used for the original currency (only used for t-out). by default use the current date."
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_ir_default
+msgid "Default Value"
+msgstr ""
+
+#. module: base
+#: model:res.groups,name:base.default_user_group
+msgid "Default access for new light users"
+msgstr ""
+
+#. module: base
+#: model:res.groups,name:base.default_user_regular_group
+msgid "Default access for new regular users"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.act_report_xml_view
+msgid "Defined in the general settings"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_groups_form
+msgid "Defines the number of days the API keys will be alive for users in this group"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_users.py:0
+msgid "Deleting the public user is not allowed. Deleting this profile will compromise critical functionalities."
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model:res.partner.category,name:base.res_partner_category_14
+#, fuzzy
+msgid "Desk Manufacturers"
+msgstr "桌子製造商"
+
+#. module: base
+#: model:ir.model,name:base.model_res_device model:ir.model.fields,field_description:base.field_res_session__device_ids
+msgid "Device"
+msgstr ""
+
+#. module: base
+#: model:res.partner,website_short_description:base.res_partner_address_3
+msgid "Douglas Fletcher is a mighty functional consultant at Acme Corporation"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_address_3
+#, fuzzy
+msgid ""
+"Douglas Fletcher works in IT sector <b>since 10 years</b>. He is known\n"
+"    notably for selling mouse traps. With that trick he cut\n"
+"    IT budget by almost half within the last 2 years."
+msgstr ""
+"Douglas Fletcher <b>在 IT 領域工作了 10 年</b>。 他是眾所周知的\n"
+"     尤其是出售捕鼠器。 用那個把戲他砍了\n"
+"     IT 預算在過去 2 年內減少了近一半."
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Dun & Bradstreet unique 9-digit business identifier."
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+#, fuzzy
+msgid "Duplicate %(record)s"
+msgstr "複製 %(record)s"
+
+# suggestion from previous Odoo version
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+#, fuzzy
+msgid "Duplicate ..."
+msgstr "複製⋯"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.ir_access_form_view model_terms:ir.ui.view,arch_db:base.view_model_form
+msgid "Duplicate this access to customize it"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Dutch Chamber of Commerce registration number."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Dutch government Organisation Identification Number."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_website__domain
+msgid "E.g. https://www.mydomain.com"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "EAN/GLN"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Electronic address for French e-invoicing platforms (PDP/PPF)."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_users__email_domain_placeholder
+msgid "Email Domain Placeholder"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.form_res_users_key_description
+msgid "Enter a description of and purpose for the key. <strong>it will be the only way to identify the key once created</strong>"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Estonian business registry code."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0
+msgid "Example: '219999830019' (format: 12 digits, all numbers, valid check digit)"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_currency_rate__rate
+msgid "Exchange rate expressed as reference-currency units per 1 unit of this currency"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_currency_rate__inverse_company_rate
+msgid "Exchange rate from the company currency to this currency"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_binary.py:0
+msgid "Expected singleton: %(record)s"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.res_users_apikeys_view_kanban
+msgid "Expires on:"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_actions_act_url__explanation model:ir.model.fields,field_description:base.field_ir_actions_act_window__explanation model:ir.model.fields,field_description:base.field_ir_actions_act_window_close__explanation model:ir.model.fields,field_description:base.field_ir_actions_actions__explanation model:ir.model.fields,field_description:base.field_ir_actions_client__explanation model:ir.model.fields,field_description:base.field_ir_actions_report__explanation model:ir.model.fields,field_description:base.field_ir_actions_server__explanation model:ir.model.fields,field_description:base.field_ir_cron__explanation model:ir.model.fields,field_description:base.field_ir_model__explanation model_terms:ir.ui.view,arch_db:base.action_view model_terms:ir.ui.view,arch_db:base.view_client_action_form model_terms:ir.ui.view,arch_db:base.view_server_action_form
+msgid "Explanation"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/fields_relational.py:0
+msgid "Failed to write field %s"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_model.py:0
+msgid "Field \"%(field_name)s\" in related path \"%(related_field)s\" is not searchable. Non-searchable fields cannot be used in related fields."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_binary.py:0
+msgid "Field “%(field)s” is type “%(field_type)s” but it is only possible to stream Binary or Image fields."
+msgstr ""
+
+#. module: base
+#: model:res.partner,website_short_description:base.res_partner_address_4
+msgid "Floyd Steward is a mighty analyst at Acme Corporation."
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_address_4
+#, fuzzy
+msgid ""
+"Floyd Steward works in IT sector <b>since 10 years</b>. He is known\n"
+"    notably for selling mouse traps. With that trick he cut\n"
+"    IT budget by almost half within the last 2 years."
+msgstr ""
+"Floyd Steward <b>在 IT 領域工作了 10 年</b>。 他是眾所周知的\n"
+"     尤其是出售捕鼠器。 用那個把戲他砍了\n"
+"     IT 預算在過去 2 年內減少了近一半."
+
+# suggestion from previous Odoo version
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+#, fuzzy
+msgid "Following child actions have warnings: %(children)s"
+msgstr "以下子級操作有警告：%(children)s"
+
+# suggestion from previous Odoo version
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+#, fuzzy
+msgid "Following child actions should have the same groups (%(groups)s): %(children)s"
+msgstr "以下的子操作，應有相同的群組（%(groups)s）：%(children)s"
+
+# suggestion from previous Odoo version
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+#, fuzzy
+msgid "Following child actions should have the same model (%(model)s): %(children)s"
+msgstr "以下的子操作，應有相同的模型（%(model)s）：%(children)s"
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_model_fields__relation_model_field
+msgid "For many2one_reference fields, the field that stores the technical name of the target model"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_model_fields__relation_field
+msgid "For one2many fields, the field on the target model that implements the opposite many2one relationship"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "Found more than 10 errors and more than one error per 10 records, interrupted to avoid showing too many errors."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "France FRCTC Electronic Address"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "France Register of legal persons"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "French 14-digit establishment identification number (SIREN + NIC)."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "French 9-digit business identification number."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "French national identification number (NIR)."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.ir_access_search_view
+msgid "Full"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0 code:addons/partner_identifiers.py:0
+msgid "GB123456782 or XI123456782"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "GCC ID"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "GCC ID Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "GEBA"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0
+msgid "GODE561231GR8"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_actions_report__attachment_use
+msgid "Generate new file each time the report is printed"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "German Commercial Register (Handelsregister) number."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "German Electronic Business Address."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Global Location Number, used to identify parties and locations."
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_address_18
+#, fuzzy
+msgid ""
+"Gordon Owens works in IT sector <b>since 10 years</b>. He is known\n"
+"                notably for selling mouse traps. With that trick he cut\n"
+"                IT budget by almost half within the last 2 years.\n"
+"                Famous Senior Consultant."
+msgstr ""
+"Gordon Owens <b>在 IT 領域工作了 10 年</b>。 他是眾所周知的\n"
+"                 尤其是出售捕鼠器。 用那個把戲他砍了\n"
+"                 IT 預算在過去 2 年內減少了近一半。\n"
+"                 著名高級顧問."
+
+# suggestion from previous Odoo version
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+#, fuzzy
+msgid ""
+"Group-restricted fields cannot be included in webhook payloads, as it could allow any user to accidentally leak sensitive information. You will have to remove the following fields from the webhook payload:\n"
+"%(restricted_fields)s"
+msgstr ""
+"網絡鈎子（webhook）的有效負載，不可包含有群組限制的欄位，因為這可能會允許任何使用者意外洩漏敏感資訊。你必須移除網絡鈎子有效負載中的以下欄位：\n"
+"%(restricted_fields)s"
+
+#. module: base
+#. odoo-python
+#: code:addons/fields_properties.py:0
+msgid "Grouping by HTML properties is not supported."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.actions.act_window,help:base.action_res_groups
+msgid ""
+"Groups allow centralize and manage user access rights.<br>\n"
+"                    Define which models, menus and views the users can interact with,\n"
+"                    or enforce strict record-level security rules."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "HRB Nr"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0
+msgid "HU12345676 or 12345678-1-11 or 8071592153"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_1 model_terms:res.partner,website_description:base.res_partner_10 model_terms:res.partner,website_description:base.res_partner_12 model_terms:res.partner,website_description:base.res_partner_5
+#, fuzzy
+msgid "Happy to be Sponsor"
+msgstr "很高興成為贊助商"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company__has_vat model:ir.model.fields,field_description:base.field_res_partner__has_vat model:ir.model.fields,field_description:base.field_res_users__has_vat
+msgid "Has Tax ID"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner_bank__holder_name
+msgid "Holder Name"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Hungarian Tax ID"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Hungarian company ID number."
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+#, fuzzy
+msgid "I'll be happy to send a webhook for you, but you really need to give me a URL to reach out to..."
+msgstr "我很樂意為您發送 webhook，但您真的需要給我一個 URL 來聯繫..."
+
+# suggestion from previous Odoo version
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+#, fuzzy
+msgid "I'm sorry to say that JSON fields (such as '%s') are currently not supported."
+msgstr "抱歉，系統目前不支援 JSON 欄位（例如「%s」）。"
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "ICE"
+msgstr ""
+
+#. module: base
+#: model_terms:res.company,invoice_terms_html:base.demo_company_id
+msgid "ID Company undertakes to do its best to supply performant services in due time in accordance with the agreed timeframes. However, none of its obligations can be considered as being an obligation to achieve results. ID Company cannot under any circumstances, be required by the client to appear as a third party in the context of any claim for damages filed against the client by an end consumer."
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model:ir.model.fields,help:base.field_res_users__barcode
+#, fuzzy
+msgid "ID used for employee identification."
+msgstr "用於員工識別證的ID."
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "IIN"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "IVA"
+msgstr ""
+
+#. module: base
+#: model_terms:res.company,invoice_terms_html:base.demo_company_id
+msgid "If a payment is still outstanding more than sixty (60) days after the due payment date, ID Company reserves the right to call on the services of a debt recovery company. All legal expenses will be payable by the client."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0
+msgid "If you are trying to input a European number, this is the expected format: "
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_base_module_uninstall__impacted_application_count
+msgid "Impacted Application Count"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_base_module_uninstall__impacted_module_count
+msgid "Impacted Module Count"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_base_module_uninstall__impacted_application_ids
+msgid "Impacted applications"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_groups__implied_by_count
+msgid "Implied By Count"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_groups__implied_count
+msgid "Implied Count"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_groups_search
+msgid "Implied Group"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_groups_search
+msgid "Implying Group"
+msgstr ""
+
+#. module: base
+#: model_terms:res.company,invoice_terms_html:base.demo_company_id
+msgid "In order for it to be admissible, ID Company must be notified of any claim by means of a letter sent by recorded delivery to its registered office within 8 days of the delivery of the goods or the provision of the services."
+msgstr ""
+
+#. module: base
+#: model:res.groups,comment:base.group_everyone
+msgid "Includes all users. This makes group restrictions more convenient."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_model.py:0
+msgid "Inconsistent values: model=%(model)s does not match model_id=%(model_id)s."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_model_fields__index
+msgid "Index"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_lang__grouping__[3,2,0]
+msgid "Indian Grouping"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_groups__share
+msgid "Indicates that the group is used external data sharing prupose (e.g., portal access to specific records)"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_ui_view.py:0
+msgid "Inherited view cannot have '%(attr)s' defined on the record. Use '%(attr)s' attributes inside the view definition"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.module_form model_terms:ir.ui.view,arch_db:base.module_view_kanban
+msgid "Installing"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_lang__grouping__[3,0]
+msgid "International Grouping"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "Invalid \"order\" specified (%s). A valid \"order\" specification is a comma-separated list of valid field names (optionally followed by asc/desc for the direction)"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_access.py:0
+msgid "Invalid domain %(domain)s: %(error)s"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Invalid identifier: %(identifier_value)s%(identifier_label)s.%(example)s"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_users.py:0
+msgid "Invalid user group."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_default.py:0
+msgid "Invalid value in Default Value field. Expected type '%(field_type)s' for '%(model_name)s.%(field_name)s'."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_ui_view.py:0
+msgid ""
+"Invalid view type: '%(view_type)s'.\n"
+"You might have used an invalid starting tag in the architecture.\n"
+"Allowed types are: %(valid_types)s"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_2 model_terms:res.partner,website_description:base.res_partner_4
+#, fuzzy
+msgid "Inventory and Warehouse management"
+msgstr "庫存和倉庫管理"
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Iqama ID Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Iqama Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Ireland Personal Public Service Number."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_access__is_standard
+msgid "Is Standard"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_3
+#, fuzzy
+msgid ""
+"It provides post-graduate education in fluid dynamics\n"
+"                    (research master in fluid dynamics, former \"Diploma\n"
+"                    Course\", doctoral program, stagiaire program and lecture\n"
+"                    series) and encourages \"training in research through\n"
+"                    research\"."
+msgstr ""
+"它提供流體動力學的研究生課程\n"
+"                    （流體動力學研究碩士、前\n"
+"                    “文憑課程”、博士課程、實習訓練課程，\n"
+"                    以及講座系列）並鼓勵\n"
+"                    “通過參與研究進行研究培訓”。"
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_3
+#, fuzzy
+msgid ""
+"It undertakes and promotes research in the field of fluid\n"
+"                    dynamics. It possesses about fifty different wind tunnels,\n"
+"                    turbomachinery and other specialized test facilities, some\n"
+"                    of which are unique or the largest in the world. Extensive\n"
+"                    research on experimental, computational and theoretical\n"
+"                    aspects of gas and liquid flows is carried out under the\n"
+"                    direction of the faculty and research engineers, sponsored\n"
+"                    mainly by governmental and international agencies as well\n"
+"                    as industries."
+msgstr ""
+"它承擔並促進流體動力學\n"
+"                    領域的研究， 擁有約五十個不同的風洞、\n"
+"                    渦輪機械和其他專門的測試設施，其中一些\n"
+"                    是世界上獨一無二或最大的。\n"
+"                    在學院和研究工程師的指導下，\n"
+"                    對氣體及液體流動的實驗性、\n"
+"                    計算性和理論層面方面進行了廣泛研究。\n"
+"                    研究主要由政府和國際機構\n"
+"                    以及行業贊助。"
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "IČO"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Japanese corporate number (Specified Subject to Tax)."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "KVK"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.ir_access_form_view
+msgid "Keep track of what this access right does and why it exists..."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_groups_form
+msgid "Keep track of what this groups does and why it exists..."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.act_report_xml_view
+msgid "Keep track of what this report action does and why it exists..."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_res_groups_privilege_form
+msgid "Keep track of what this scope does and why it exists..."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_access__kind
+msgid "Kind"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "LEI"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_groups_privilege__placeholder
+msgid "Label displayed when the user does not belong of any group of that scope."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_currency__rate_date
+msgid "Last Rate Update"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_users__login_date
+msgid "Latest Login"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner__partner_latitude model:ir.model.fields,field_description:base.field_res_users__partner_latitude
+msgid "Latitude"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Latvian unified registration number."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Legal Entity Identifier"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Leitweg-ID"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__light
+msgid "Light"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_users__role__group_user
+msgid "Light User"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_users.py:0
+msgid "Limit of %s API keys is reached for programmatic creation"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_actions_report__linked_view_ids
+msgid "Linked View"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_actions_report__linked_view_count
+msgid "Linked View Count"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Lithuanian legal entity code (JAK)."
+msgstr ""
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_point_of_sale_localizations model:ir.module.category,name:base.module_category_website_sale_localizations
+msgid "Localizations"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner__partner_longitude model:ir.model.fields,field_description:base.field_res_users__partner_longitude
+msgid "Longitude"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Luxembourg business registry number."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "MHRSD License"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "MHRSD License Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "MISA License"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "MISA License Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "MOMRAH License"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "MOMRAH License Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Malaysian company registration number."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_groups_form
+msgid "Manage Scopes"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_2 model_terms:res.partner,website_description:base.res_partner_4
+#, fuzzy
+msgid "Materials Management"
+msgstr "物料管理"
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Mauritian Business Registration Number."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Mersis Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/template_inheritance.py:0
+msgid "Missing 'expr' attribute in xpath specification"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "Missing required field %(field_display)s for model %(model_display)s"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_base_module_uninstall__model_count
+msgid "Model Count"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_base_module_uninstall__model_ids
+msgid "Models to be deleted"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Moroccan joint business identifier (Identifiant Commun de l'Entreprise)."
+msgstr ""
+
+#. module: base
+#: model:res.country,vat_label:base.ci
+msgid "NCC"
+msgstr ""
+
+#. module: base
+#: model:res.country,vat_label:base.id
+msgid "NPWP/NIK"
+msgstr ""
+
+#. module: base
+#: model:res.country,vat_label:base.mz
+msgid "NUIT"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "NZBN"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form
+msgid "Name (company or person)"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.act_report_xml_view
+msgid "Name in the 'Print' menu..."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "National ID"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "Need groupby or aggregates."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "New Zealand Business Number."
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_address_16
+#, fuzzy
+msgid ""
+"Nicole is <b>author of several books</b>, including Amazon best seller\n"
+"                \"How Azure and Odoo will change the business world!\"."
+msgstr ""
+"Nicole 是<b>幾本書的作者</b>，其中包括亞馬遜暢銷書\n"
+" \"Azure 和 Odoo 將如何改變商業世界!\"."
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_address_16
+#, fuzzy
+msgid ""
+"Nicole works in IT sector <b>since 20 years</b>. She\n"
+"                develops software to help develop websites.  She sold her\n"
+"                first company at 30 years old and manage to grow Azure Interior\n"
+"                from 1 to 55 employees mostly by reselling services on\n"
+"                Odoo."
+msgstr ""
+"Nicole works in IT sector <b>since 20 years</b>. She\n"
+"                develops software to help develop websites.  She sold her\n"
+"                first company at 30 years old and manage to grow Azure Interior\n"
+"                from 1 to 55 employees mostly by reselling services on\n"
+"                Odoo."
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_groups_privilege.py:0 model:res.groups.privilege,placeholder:base.res_groups_privilege_contact model:res.groups.privilege,placeholder:base.res_groups_privilege_export
+msgid "No"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.wizard_lang_export
+msgid "No file could be exported."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_groups_privilege__placeholder
+msgid "No group label"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.actions.act_window,help:base.action_res_groups
+msgid "No groups found. Let's create one!"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/fields_relational.py:0
+msgid "No inverse field \"%(inverse_field)s\" found for \"%(comodel)s\""
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_binary.py:0
+msgid "No record found for xmlid=%(xmlid)s, res_model=%(res_model)s, id=%(res_id)s"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_groups_form
+msgid "No scope"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_sequence.py:0
+msgid "Non-ASCII characters in %s"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Norwegian Register of Legal Entities (Brønnøysund Register Center)"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions_report.py:0
+msgid "Not enough workers to generate the PDF. Please try another engine or upgrade your setup."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0
+msgid "Note: the expected format is %(expected_format)s"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_access.py:0
+msgid "Note: this might be a multi-company issue. Switching company may help - in Odoo, not in real life!"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_company__font__noto_sans_mono
+msgid "Noto Sans Mono"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "OB"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "OB-number cannot be computed from the VAT for sole proprietorships."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "OIN"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_server_action_form
+msgid "ORM API Documentation"
+msgstr ""
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_supply_chain_obox
+msgid "Obox"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model:res.partner.category,name:base.res_partner_category_12
+#, fuzzy
+msgid "Office Supplies"
+msgstr "辦公用品"
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_access__active
+msgid "Only active accesses are taken into account when checking access rights."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/fields_binary.py:0
+msgid "Only admins can upload SVG files."
+msgstr ""
+
+#. module: base
+#: model:ir.model.constraint,message:base.constraint_properties_base_definition_unique_properties_field_id
+msgid "Only one definition per properties field"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_model.py:0
+msgid "Only stored fields with a database column can be indexed."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_profile__config_url
+msgid "Open profiles config"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model:res.partner,website_short_description:base.res_partner_5
+#, fuzzy
+msgid "OpenWood brings honesty and seriousness to wood industry while helping customers deal with trees, flowers and fungi."
+msgstr "OpenWood 在幫助客戶處理樹木、花卉和真菌的同時，為木材行業帶來了誠實和嚴肅。"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_access__operation
+msgid "Operation"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.ir_access_form_view model_terms:ir.ui.view,arch_db:base.ir_access_search_view
+msgid "Operations"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Other ID"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Other ID Number"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_2 model_terms:res.partner,website_description:base.res_partner_4
+#, fuzzy
+msgid ""
+"Our experts invent, imagine and develop solutions which meet\n"
+"                your business requirements. They build a new technical\n"
+"                environment for your company, but they always take the already\n"
+"                installed IT software into account. That is why Idealis\n"
+"                Consulting delivers excellence in HR and SC Management."
+msgstr ""
+"我們的專家發明、想像和開發能滿足\n"
+"                你業務需求的解決方案。 他們為你的公司構建新的\n"
+"                技術環境，但他們一定會考慮\n"
+"                已安裝的 IT 軟件。 這就是 Idealis \n"
+"                Consulting 能夠提供卓越人力資源及供應鏈管理的原因。"
+
+#. module: base
+#: model_terms:res.company,invoice_terms_html:base.demo_company_id
+msgid "Our invoices are payable within 21 working days, unless another payment timeframe is indicated on either the invoice or the order. In the event of non-payment by the due date, ID Company reserves the right to request a fixed interest payment amounting to 10% of the sum remaining due. ID Company will be authorized to suspend any provision of services without prior warning in the event of late payment."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "PPSN"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Pakistani Computerized National Identity Card number (CNIC), 13 digits."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_actions_report__paperformat_id model_terms:ir.ui.view,arch_db:base.act_report_xml_search_view
+msgid "Paper Size"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0
+msgid "Parent Name is required at this point"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_res_partner_category
+msgid "Partner Tag"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Passport"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Passport ID"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Passport number."
+msgstr ""
+
+#. module: base
+#: model:res.company,pay_now_label:base.demo_company_id model:res.company,pay_now_label:base.main_company
+msgid "Pay now"
+msgstr ""
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_accounting_payment_custom
+msgid "Payment Custom"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__kind__permission model_terms:ir.ui.view,arch_db:base.ir_access_form_view
+msgid "Permission"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_2 model_terms:res.partner,website_description:base.res_partner_4
+#, fuzzy
+msgid "Personnel Administration"
+msgstr "人事管理"
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Peruvian unique taxpayer registry number (RUC)."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner_bank.py:0
+msgid "Please add your own bank account manually: %(account_number)s (%(partner)s)"
+msgstr ""
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_point_of_sale
+msgid "Point of sale"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_ir_profile
+msgid "Profiling Result"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_users.py:0
+msgid "Programmatic API keys are not enabled"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_ir_cron_progress
+msgid "Progress of Scheduled Action"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_properties_base_definition model:ir.model.fields,field_description:base.field_properties_base_definition_mixin__properties_base_definition_id model:ir.model.fields,field_description:base.field_res_partner__properties_base_definition_id model:ir.model.fields,field_description:base.field_res_users__properties_base_definition_id
+msgid "Properties Base Definition"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_properties_base_definition_mixin
+msgid "Properties Base Definition Mixin"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_properties_base_definition__properties_definition
+msgid "Properties Definition"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_properties_base_definition__properties_field_id
+msgid "Properties Field"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_actions_server__property_selection model:ir.model.fields,field_description:base.field_ir_cron__property_selection
+msgid "Property Selection"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_actions_server__update_property model:ir.model.fields,field_description:base.field_ir_cron__update_property
+msgid "Property to Update"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model:res.partner.category,name:base.res_partner_category_2
+#, fuzzy
+msgid "Prospects"
+msgstr "展望"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_model_form
+msgid "Provide a verbose explanation of the model's purpose..."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_website__user_id
+msgid "Public User"
+msgstr ""
+
+#. module: base
+#: model:res.groups,comment:base.group_public
+msgid ""
+"Public users have specific access rights (such as record rules and restricted menus).\n"
+"                They usually do not belong to the usual Odoo groups.\n"
+"                This makes group restrictions more convenient."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_website__domain_punycode
+msgid "Punycode Domain"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_ir_qweb_field_one2many
+msgid "Qweb field one2many"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "RC123456"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "RO1234567897 or 8001011234567 or 9000123456789"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_users_apikeys_description__scope__rpc
+msgid "RPC"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__rd
+msgid "Read, Delete"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__ru
+msgid "Read, Update"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__rud
+msgid "Read, Update, Delete"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/fields.py:0
+msgid "Record does not exist or has been deleted."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_binary.py:0
+msgid "Record has no field “%s”"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+#, fuzzy
+msgid "Recursion found in child server actions"
+msgstr "服務端動作存在循環調用"
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Registrikood"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner__child_ids model:ir.model.fields,field_description:base.field_res_users__child_ids
+msgid "Related Contacts"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_model_fields__relation_model_field
+msgid "Relation Model Field"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model:ir.module.category,name:base.module_category_human_resources_remote_work
+#, fuzzy
+msgid "Remote Work"
+msgstr "遙距工作"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.act_report_xml_view
+msgid "Remove from the 'Print' menu"
+msgstr ""
+
+#. module: base
+#: model:ir.actions.act_window,name:base.ir_action_report model:ir.ui.menu,name:base.menu_ir_action_report
+msgid "Report Actions"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_attachment__res_access_read
+msgid "Res Access Read"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_attachment__res_access_write
+msgid "Res Access Write"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "Resolve other errors first"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.server_action_history_wizard_view
+msgid "Restore Revision"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__kind__restriction model_terms:ir.ui.view,arch_db:base.ir_access_form_view
+msgid "Restriction"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.ir_access_form_view
+msgid "Restriction globally applied"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.ir_access_form_view
+msgid ""
+"Restrictions are combined together with a logical AND operator.<br/>\n"
+"                            Permissions are combined together with a logical OR operator.<br/>\n"
+"                            If a user belongs to several groups, the permissions are combined with a logical OR operator."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+msgid "Revision Code"
+msgstr ""
+
+#. module: base
+#: model:res.groups,name:base.group_everyone
+msgid "Role / Everyone"
+msgstr ""
+
+#. module: base
+#: model:res.groups,name:base.group_user
+msgid "Role / Light User"
+msgstr ""
+
+#. module: base
+#: model:res.groups,name:base.group_user_regular
+msgid "Role / User"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Routing ID for invoicing German public authorities."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner_bank.py:0
+msgid "Routing Number should only contain numbers (maximum 9 digits)."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "SE"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "SIREN"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "SIRET"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "SST"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_2 model_terms:res.partner,website_description:base.res_partner_4
+#, fuzzy
+msgid "Sales and Distribution"
+msgstr "銷售及分銷"
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Saudi Arabia 700 Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Saudi Arabia Commercial Registration Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Saudi Arabia GCC ID Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Saudi Arabia Iqama ID Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Saudi Arabia MHRSD License Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Saudi Arabia MISA License Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Saudi Arabia MOMRAH License Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Saudi Arabia National ID Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Saudi Arabia Other ID Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Saudi Arabia Passport ID Number"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Saudi Arabia Tax Identification Number"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_actions_report__save_as_attachment
+msgid "Save As Attachment"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.act_report_xml_view
+msgid "Save as attachment"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.res_users_apikeys_view_kanban
+msgid "Scope:"
+msgstr ""
+
+#. module: base
+#: model:ir.actions.act_window,name:base.action_res_groups_privilege model:ir.ui.menu,name:base.menu_action_res_groups_privilege
+msgid "Scopes"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_server_action_form
+msgid "Select Field:"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.form_res_users_key_description
+msgid "Select a scope"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_ir_actions_server_history
+msgid "Server Action History"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_server_action_history_wizard
+msgid "Server Action History Wizard"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+#, fuzzy
+msgid "Server action %(action_name)s has one or more warnings, address them first."
+msgstr "伺服器操作 %(action_name)s 有一項或多項警告，請先處理。"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_device__session_identifier model:ir.model.fields,field_description:base.field_res_session__session_identifier
+msgid "Session identifier"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.act_report_xml_view
+msgid "Set a technical name to call the report in the code"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.act_report_xml_view
+msgid "Set the name of the file that will be saved on the computer"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_groups_form
+msgid "Sets in which scope this group appears on the users access rights page"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner_bank__show_clearing_number
+msgid "Show Clearing Number"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_actions_server__show_code_history model:ir.model.fields,field_description:base.field_ir_cron__show_code_history
+msgid "Show Code History"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Singapore Unique Entity Number."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "Skipping a company check for model %(model_name)s. Its fields %(field_names)s are set as company-dependent, but the model doesn't have a `company_id` or `company_ids` field!"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Slovak company identification number (IČO)."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/fields_textual.py:0
+msgid "Some of the languages are not active: %s"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/fields_textual.py:0
+msgid "Some of the translations are False: %s"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_attachment.py:0
+msgid ""
+"Sorry, you are not allowed to access this document. Please contact your system administrator.\n"
+"\n"
+"(Operation: %(operation)s)\n"
+"\n"
+"Records: %(records)s, User: %(user)s"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_config_parameter__value
+msgid "Stringified Python variable value. Supported types: str, bool, int, float. Blank means undefined."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__striped
+msgid "Striped"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
+msgid "Subject to VAT"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Swedish organization number (Organisationsnummer)."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Swiss company identification number (UIDB)."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "TKU"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company__report_tables_id
+msgid "Table Design"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_2 model_terms:res.partner,website_description:base.res_partner_4
+#, fuzzy
+msgid "Talent Management"
+msgstr "人才管理"
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Tax Identification Number"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_company__has_vat model:ir.model.fields,help:base.field_res_partner__has_vat model:ir.model.fields,help:base.field_res_users__has_vat
+msgid "Technical field indicating whether the Tax ID is not a placeholder.Returns False for placeholder values such as '/', 'NA', 'na', or an empty string."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0
+msgid "Template for Contacts"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_ui_view.py:0
+msgid "Template not found: '%s'"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_sequence.py:0
+msgid "The %(field)s %(value)s contains non-ASCII characters. Names generated by this sequence may be printed as Code128 barcodes in reports, which only support ASCII characters."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0
+msgid "The %(vat_label)s number [%(wrong_vat)s] does not seem to be valid. %(expected_note)s"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0
+msgid "The %(vat_label)s number [%(wrong_vat)s] for %(record_label)s does not seem to be valid. %(expected_note)s"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "The 5-digit branch code as registered with the Revenue Department. Leave empty for Head Office."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.form_res_users_key_description
+msgid "The API key will only be valid for the selected scope and can't be used for other scopes."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/bank_account_number.py:0
+msgid ""
+"The IBAN does not seem to be correct. You should have entered something like this %s\n"
+"Where B = National bank code, S = Branch code, C = Account No, k = Check digit"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/bank_account_number.py:0
+msgid "The IBAN is invalid, it should begin with the country code"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_lang__grouping
+msgid "The International Grouping will represent 123456789 to be 123,456,789.00; The Indian Grouping will represent 123456789 to be 12,34,56,789.00"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model:res.partner,website_short_description:base.res_partner_10
+#, fuzzy
+msgid "The Jackson Group brings honesty and seriousness to wood industry while helping customers deal with trees, flowers and fungi."
+msgstr "傑克遜集團為木業帶來誠實和認真，同時幫助客戶處理樹木、花卉和真菌."
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/properties_base_definition.py:0
+msgid "The definition needs to be linked to a properties field. Those fields are not: %s."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/fields_textual.py:0
+msgid "The field value you're saving (%(model)s %(field)s)(%(record)s) includes content that is restricted for security reasons. It is possible that someone with higher privileges previously modified it, and you are therefore not able to modify it yourself while preserving the content."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "The following languages are not activated: %(missing_names)s"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_model_fields__index
+msgid "The kind of database index requested for this field. B-tree indexes support equality and range searches; excluding nulls makes the index smaller when most values are empty; trigram indexes speed up text pattern searches. Leaving this empty does not remove an index that already exists."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/fields_textual.py:0
+msgid "The non translatable content of the written value are not consistent: %s"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_access__domain
+msgid "The operations will only be allowed for records in this domain"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+#, fuzzy
+msgid "The path contained by the field '%(searched_field)s' contains a non-relational field (%(current_field)s) that is not the last field in the path. You can't traverse non-relational fields (even in the quantum realm). Make sure only the last field in the path is non-relational."
+msgstr "欄位「%(searched_field)s」所包含的路徑，有一個非關係欄位（%(current_field)s）並非路徑內最後一個欄位。非關係欄位是無法穿越的（即使量子電腦也做不到！）。請確保路徑內，只有最後一個欄位屬非關係欄位。"
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions_report.py:0
+msgid "The pdf engine on this system is not working."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_users.py:0
+msgid "The provided API key is invalid or does not belong to the current user."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_users.py:0
+msgid "The provided API key is invalid."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "The record %(xml_id)s has the module prefix %(module_name)s. This is the part before the '.' in the external id. Because the prefix refers to an existing module, the record would be deleted when the module is upgraded. Use either no prefix and no dot or a prefix that isn't an existing module. For example, __import__, resulting in the external id __import__.%(record_id)s."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_actions_report__report_type
+msgid "The type of the report that will be rendered, each one having its own rendering method. HTML means the report will be opened directly in your browser, PDF means the report will be generated and downloaded by the user."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid ""
+"The value for %(field_display)s already exists.\n"
+"\n"
+"Detail: %(detail)s\n"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/bank_account_number.py:0
+msgid "There is no IBAN code."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/bank_account_number.py:0
+msgid "This CLABE does not pass the checksum check, please verify it."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/bank_account_number.py:0
+msgid "This IBAN does not pass the validation check, please verify it."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.wizard_lang_export
+msgid ""
+"This file was generated using the universal <strong>Unicode/UTF-8</strong> file encoding, please be sure to view and edit\n"
+"                               using the same encoding."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_groups.py:0
+msgid "This makes a group imply two disjoint groups."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_access.py:0
+msgid "This seems to be a multi-company issue, but you do not have access to the proper company to access the record anyhow."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_access.py:0
+msgid "This seems to be a multi-company issue, you might be able to access the record by switching to the company: %s."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
+msgid "This will remove:"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "To avoid a mess, no company crossover is allowed!"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0
+msgid "To explicitly indicate no (valid) VAT, use '/', 'na' or 'NA' instead. "
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_address_17
+#, fuzzy
+msgid ""
+"Toni Rhodes works in IT sector <b>since 10 years</b>. He is known\n"
+"                notably for selling mouse traps. With that trick he cut\n"
+"                IT budget by almost half within the last 2 years.\n"
+"                Famous Managing Partner."
+msgstr ""
+"Toni Rhodes <b>在 IT 領域工作了 10 年</b>. 他是眾所周知的\n"
+"                尤其是出售捕鼠器. 用那個把戲他砍了\n"
+"                IT 預算在過去 2 年內減少了近一半.\n"
+"                著名管理合夥人."
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "Trade Registry Number"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_model_fields__translate__html_translate
+msgid "Translate HTML terms"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_model_fields__translate__xml_translate
+msgid "Translate XML terms"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_model_fields__translate__standard
+msgid "Translate as a whole"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_model.py:0
+msgid "Translated fields only support trigram indexes."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/translate.py:0
+msgid "Translations %(translations)s for field %(field)s has None value for language '%(language)s'"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/translate.py:0
+msgid "Translations %(translations)s for field %(field)s has invalid language '%(language)s'"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/translate.py:0
+msgid "Translations %(translations)s for field %(field)s has technical language %(technical_language)s but not corresponding language '%(language)s'"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/translate.py:0
+msgid "Translations %(translations)s for field %(field)s have different structures"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/translate.py:0
+msgid "Translations %(translations)s for field %(field)s must have 'en_US'"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "Translations for model translated fields only accept falsy values and str"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_ir_cron_trigger
+msgid "Triggered Action"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_model_fields__index__trigram
+msgid "Trigram"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_model.py:0
+msgid "Trigram indexes are only supported on stored Char, Text, and HTML fields."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_model.py:0
+msgid "Trigram indexes require the PostgreSQL pg_trgm extension."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_bank_form
+msgid "Trust bank account"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "UEN"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "UIDB"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_attachment.py:0
+msgid "URL attachment (%s) shouldn't be migrated to local."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "Uh-oh! You’ve got some company inconsistencies here:"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "Unable to delete %(record)s because it is used as the default value of %(field)s"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions_report.py:0
+msgid "Unable to find the pdf engine on this system. The PDF can not be created."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_ui_view.py:0
+msgid ""
+"Unicode strings with encoding declaration are not supported in XML.\n"
+"Remove the encoding declaration."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
+msgid "Uninstallation"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
+msgid "Uninstalling modules can be risky. We recommend to try it on a testing environment first."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_currency_form
+msgid "Unit/Base"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "Unknown database error: '%s'"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "Unknown database identifier '%s'"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "Unknown error during import: %(error_type)s: %(error_message)s"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/domains.py:0
+msgid "Unsupported operator on %(field_label)s %(model_label)s in %(domain)s"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+#, fuzzy
+msgid "Update %(model_name)s"
+msgstr "更新 %(model_name)s"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_users_form_simple_modif
+msgid "Update Preferences"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__ud
+msgid "Update, Delete"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/fields_properties.py:0
+msgid "Updating records with different property fields definitions is not supported. Update by separate definition instead."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.module_form model_terms:ir.ui.view,arch_db:base.module_view_kanban
+msgid "Upgrading"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_res_users_apikeys
+msgid "User API Key"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_device__user_agent model:ir.model.fields,field_description:base.field_res_device_log__user_agent model:ir.model.fields,field_description:base.field_res_session__user_agent
+msgid "User Agent"
+msgstr ""
+
+#. module: base
+#: model:ir.actions.act_window,name:base.action_user_session model:ir.ui.menu,name:base.menu_action_user_session
+msgid "User Sessions"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_users__session_ids
+msgid "User sessions"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_groups__implied_by_ids
+msgid "Users in implying groups are implicitly part of the current group"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_groups__implied_ids
+msgid "Users in the current group are implicitly part of the implied groups"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_groups__disjoint_ids
+msgid "Users in the current group cannot be added in disjoint groups. For example, a user cannot be in the \"Internal\" and \"Portal\" groups at the same time."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/partner_identifiers.py:0
+msgid "VAT Registry (VAT ID)"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_currency_rate__company_rate
+msgid "Value of 1 unit of this currency in the company currency"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model:res.partner.category,name:base.res_partner_category_0
+#, fuzzy
+msgid "Vendor"
+msgstr "供應商"
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_model__explanation
+msgid "Verbose description of what is this model for"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_actions_act_url__explanation model:ir.model.fields,help:base.field_ir_actions_act_window__explanation model:ir.model.fields,help:base.field_ir_actions_act_window_close__explanation model:ir.model.fields,help:base.field_ir_actions_actions__explanation model:ir.model.fields,help:base.field_ir_actions_client__explanation model:ir.model.fields,help:base.field_ir_actions_report__explanation model:ir.model.fields,help:base.field_ir_actions_server__explanation model:ir.model.fields,help:base.field_ir_cron__explanation
+msgid "Verbose description of what this action actually does"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_server_action_form
+msgid "View code history and restore a previous version"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_ui_view__technical_usage
+msgid "View's Technical Usage"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.act_report_xml_view
+msgid "Visible to all groups"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.act_report_xml_view
+msgid "Visible to all records"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model:res.partner,website_short_description:base.res_partner_18
+#, fuzzy
+msgid "We are a technology consulting & strategic advisory firm that creates value enhancing solutions through the use of advanced software for our clients worldwide. At Lumber Inc we bring operational experience combined..."
+msgstr "我們是一家技術諮詢和戰略諮詢公司，通過使用先進的軟體為我們的全球客戶創造增值解決方案. 在 Lumber Inc，我們結合了運營經驗..."
+
+# suggestion from previous Odoo version
+#. module: base
+#: model_terms:res.partner,website_description:base.res_partner_18
+#, fuzzy
+msgid ""
+"We are a technology consulting &amp; strategic advisory firm that creates value enhancing solutions through the use of advanced software for our clients worldwide.\n"
+" <br> <br>\n"
+"At Lumber Inc we bring operational experience combined with technological acumen. We understand that any software that supports business operations needs to be designed in such a way that facilitates the execution of critical operational processes, and serves as a tool to the users rather than a barrier. Our approach is focused on the process first, ensuring that it contributes to the goals of the company, we then optimize it, and design the software solutions to best support it."
+msgstr ""
+"我們是一家技術諮詢和 戰略諮詢公司，通過使用先進的軟體為我們的全球客戶創造價值提升解決方案.\n"
+"  <br> <br>\n"
+"在 Lumber Inc，我們將運營經驗與技術敏銳度相結合. 我們理解任何支持業務運營的軟件都需要以促進關鍵運營流程執行的方式進行設計，並作為用戶的工具而不是障礙. 我們的方法首先關注流程，確保它有助於公司的目標，然後我們對其進行優化，並設計軟件解決方案以最好地支援它."
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_website__domain
+msgid "Website Domain"
+msgstr ""
+
+#. module: base
+#: model:ir.model.constraint,message:base.constraint_website_domain_unique
+msgid "Website Domain should be unique."
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_website__name
+msgid "Website Name"
+msgstr ""
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_website_sale
+msgid "Website Sale"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_access__is_standard
+msgid "Whether the access is defined by a module"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_actions_report__save_as_attachment model_terms:ir.ui.view,arch_db:base.act_report_xml_view
+msgid "Whether the report is saved as attachment when it is printed"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_access__for_create
+msgid "Whether this access record applies for operation 'create'"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_access__for_read
+msgid "Whether this access record applies for operation 'read'"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_access__for_unlink
+msgid "Whether this access record applies for operation 'unlink'"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_access__for_write
+msgid "Whether this access record applies for operation 'write'"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_access__kind
+msgid "Whether this record adds (permission) or restricts (restriction) access to the given model"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_access__operation
+msgid "Which operation(s) this access applies to, a subset of 'crud'."
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#: model:res.partner,website_short_description:base.res_partner_1
+#, fuzzy
+msgid "Wood Corner brings honesty and seriousness to wood industry while helping customers deal with trees, flowers and fungi."
+msgstr "木角帶來的誠實和認真木材行業，同時求助客戶處理樹木，花卉和菌類."
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.report_irmodeloverview
+msgid "X"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0 code:addons/partner_identifiers.py:0
+msgid "XXXXXXXXX [9 digits] and it should respect the Luhn algorithm checksum"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "You are creating a loop in your '%s' records. A record cannot be a child of itself or one of its own sub-items. Please select a different parent."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/properties_base_definition.py:0
+msgid "You can not change the field of a base definition"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_company__vat model:ir.model.fields,help:base.field_res_partner__vat model:ir.model.fields,help:base.field_res_users__vat
+msgid "You can use '/' to indicate that the customer has no Tax ID."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_attachment.py:0
+msgid ""
+"You cannot attach an attachment to itself.\n"
+"Attachment %(record)s cannot have res_id: %(res_id)s"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "You cannot delete %(to_delete_record)s, as it is used by %(on_restrict_record)s"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/fields_properties.py:0
+msgid "You cannot use “%(property_name)s” because the linked “%(model_name)s” model doesn't exist or is invalid"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid ""
+"You do not have enough rights to access the field \"%(field)s\" on %(document_kind)s (%(document_model)s). Please contact your system administrator.\n"
+"\n"
+"Operation: %(operation)s"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+#, fuzzy
+msgid "You don't have enough access rights to run this action."
+msgstr "您沒有足夠的存取權限來執行此操作."
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "You don't have the rights to export data. Please contact an Administrator."
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner_bank.py:0
+msgid "Zengin Branch Code must consist of 3 digits."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form
+msgid "address"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "allowed for groups %s"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "always forbidden"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/models.py:0
+msgid "custom field access rules"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_access.py:0
+msgid "delete"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.wizard_lang_export
+msgid "do not contain translatable terms.<br/>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.wizard_lang_export
+msgid "does not contain translatable terms.<br/>"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_users.py:0
+msgid "e.g. %(placeholder)s"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.act_report_xml_view
+msgid "e.g. 'report ' + (object.name) + '.pdf'"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_bank_form
+msgid "e.g. Bank of America"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_simple_form
+msgid "e.g. Lumber Inc or Brandon Freeman"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_model_form
+msgid "e.g. Sales Order"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.act_report_xml_view
+msgid "e.g. module_name.report_name"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0
+msgid "either 11 digits for CPF or 14 characters for CNPJ"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_profile__others
+msgid "others"
+msgstr ""
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_partner.py:0
+msgid "partner%s"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_actions_server__value_field_to_show__property_selection
+msgid "property_selection"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_users_form
+msgid "x"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_actions_server__value_field_to_show__x2many
+msgid "x2many"
+msgstr ""

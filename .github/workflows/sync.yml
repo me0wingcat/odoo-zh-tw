@@ -1,0 +1,45 @@
+name: Sync with Odoo zh_TW
+
+# Once a month (and on demand), compare terms/ with Odoo's own translations and
+# open a pull request with what changed. Nothing reaches your server until you
+# merge the PR and pull on the NAS.
+# Needs: Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests".
+
+on:
+  schedule:
+    - cron: "17 2 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  ODOO_BRANCH: "20.0"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Odoo translation files only
+        run: |
+          git clone --depth 1 --filter=blob:none --no-checkout -b "$ODOO_BRANCH" https://github.com/odoo/odoo.git /tmp/odoo
+          cd /tmp/odoo
+          git sparse-checkout set --no-cone '/addons/*/i18n/zh_TW.po' '/addons/*/i18n/*.pot' '/odoo/addons/base/i18n/zh_TW.po' '/odoo/addons/base/i18n/base.pot'
+          git checkout "$ODOO_BRANCH"
+
+      - name: Sync and rebuild
+        run: |
+          pip install polib
+          python3 scripts/sync.py --odoo /tmp/odoo | tee /tmp/summary.txt
+          python3 scripts/build.py
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: auto/sync-odoo
+          title: "Sync with Odoo ${{ env.ODOO_BRANCH }} zh_TW"
+          commit-message: "Sync terms with Odoo ${{ env.ODOO_BRANCH }}"
+          body-path: /tmp/summary.txt

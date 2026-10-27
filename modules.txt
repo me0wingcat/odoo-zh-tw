@@ -1,0 +1,16 @@
+base
+web
+mail
+product
+uom
+stock
+purchase
+purchase_stock
+stock_account
+barcodes
+contacts
+base_import
+portal
+digest
+analytic
+resource

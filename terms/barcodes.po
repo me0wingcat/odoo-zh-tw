@@ -1,0 +1,64 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo zh_TW overrides\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+# suggestion from previous Odoo version
+#. module: barcodes
+#. odoo-javascript
+#: code:addons/barcodes/static/src/components/barcode_input.xml:0
+#, fuzzy
+msgid "Apply"
+msgstr "套用"
+
+#. module: barcodes
+#: model_terms:ir.ui.view,arch_db:barcodes.view_partner_barcodes_form
+msgid "Barcode must start with `042`"
+msgstr ""
+
+#. module: barcodes
+#. odoo-javascript
+#: code:addons/barcodes/static/src/components/barcode_view.xml:0
+msgid "Click the icon in the browser on the left of the address bar and toggle Camera permissions."
+msgstr ""
+
+#. module: barcodes
+#: model:ir.model,name:barcodes.model_res_company
+msgid "Company"
+msgstr ""
+
+#. module: barcodes
+#. odoo-javascript
+#: code:addons/barcodes/static/src/components/barcode_view.xml:0
+msgid "Edit access to scan"
+msgstr ""
+
+#. module: barcodes
+#. odoo-javascript
+#: code:addons/barcodes/static/src/components/barcode_input.js:0
+msgid "Enter a barcode"
+msgstr ""
+
+#. module: barcodes
+#. odoo-javascript
+#: code:addons/barcodes/static/src/components/barcode_view.xml:0
+msgid "No access to your camera"
+msgstr ""
+
+#. module: barcodes
+#: model:ir.module.module,summary:base.module_barcodes
+msgid "Scan and Parse Barcodes"
+msgstr ""
+
+# suggestion from previous Odoo version
+#. module: barcodes
+#. odoo-javascript
+#: code:addons/barcodes/static/src/components/barcode_scanner.xml:0
+#, fuzzy
+msgid "Tap to scan"
+msgstr "點擊即可掃描"
