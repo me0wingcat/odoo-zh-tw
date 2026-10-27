@@ -4,3 +4,5 @@ services:
   web:
     volumes:
       - ./odoo-zh-tw:/mnt/zh-tw-addons:ro   # add /mnt/zh-tw-addons to addons_path
+      - ./odoo-zh-tw/code_overlays/mail/i18n_extra:/usr/lib/python3/dist-packages/odoo/addons/mail/i18n_extra:ro
+      - ./odoo-zh-tw/code_overlays/stock_account/i18n_extra:/usr/lib/python3/dist-packages/odoo/addons/stock_account/i18n_extra:ro

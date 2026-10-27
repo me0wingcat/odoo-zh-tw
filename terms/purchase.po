@@ -307,10 +307,11 @@ msgstr ""
 msgid "Forecasted"
 msgstr ""
 
+# company wording
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__receipt_status__full
 msgid "Fully Received"
-msgstr ""
+msgstr "已全部收貨"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__incoterm_location model_terms:ir.ui.view,arch_db:purchase.view_partner_property_form
@@ -396,10 +397,11 @@ msgstr ""
 msgid "Not Invoiced Quantity"
 msgstr ""
 
+# company wording
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__receipt_status__pending
 msgid "Not Received"
-msgstr ""
+msgstr "尚未收貨"
 
 #. module: purchase
 #: model:ir.module.module,description:base.module_purchase
@@ -499,10 +501,11 @@ msgstr ""
 msgid "Parent Section Line"
 msgstr ""
 
+# company wording
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__receipt_status__partial
 msgid "Partially Received"
-msgstr ""
+msgstr "部分收貨"
 
 #. module: purchase
 #. odoo-python
@@ -625,25 +628,28 @@ msgstr ""
 msgid "Some order lines are missing a product, you need to correct them before going further."
 msgstr ""
 
+# company wording
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order_line__display_type__line_subsection
 msgid "Subsection"
-msgstr ""
+msgstr "子章節"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Subsection Name"
 msgstr ""
 
+# company wording
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__document_tax_mode__tax_excluded
 msgid "Tax Excl."
-msgstr ""
+msgstr "未稅"
 
+# company wording
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__document_tax_mode__tax_included
 msgid "Tax Incl."
-msgstr ""
+msgstr "含稅"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__technical_price_unit

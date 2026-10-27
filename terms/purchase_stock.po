@@ -156,10 +156,11 @@ msgstr ""
 msgid "No Vendor Found"
 msgstr ""
 
+# company wording
 #. module: purchase_stock
 #: model:ir.model.fields.selection,name:purchase_stock.selection__res_partner__group_rfq__default
 msgid "On Order"
-msgstr ""
+msgstr "依訂單"
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.exception_on_picking

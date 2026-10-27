@@ -275,11 +275,12 @@ msgstr ""
 msgid "Origin Company"
 msgstr ""
 
+# company wording
 #. module: stock_account
 #. odoo-python
 #: code:addons/stock_account/models/account_move.py:0 model:ir.model,name:stock_account.model_product_value model:ir.model.fields,field_description:stock_account.field_account_bank_statement_line__product_value_id model:ir.model.fields,field_description:stock_account.field_account_move__product_value_id model:ir.model.fields,field_description:stock_account.field_stock_move__product_value_ids model:ir.model.fields.selection,name:stock_account.selection__stock_avco_report__res_model_name__product_value
 msgid "Product Value"
-msgstr ""
+msgstr "產品價值"
 
 #. module: stock_account
 #. odoo-python

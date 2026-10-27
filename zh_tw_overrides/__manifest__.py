@@ -5,7 +5,7 @@
     "version": "20.0.1.0.0",
     "license": "LGPL-3",
     "category": "Hidden",
-    "depends": ['base'],
+    "depends": ['base', 'mail', 'product', 'purchase', 'purchase_stock', 'resource', 'stock', 'stock_account'],
     "data": [],
     "installable": True,
     "auto_install": False,

@@ -706,11 +706,12 @@ msgstr ""
 msgid "Adjust the slider to set the voice detection sensitivity."
 msgstr ""
 
+# company wording
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/core/common/channel_member.xml:0 model:ir.model.fields.selection,name:mail.selection__discuss_channel_member__channel_role__admin
 msgid "Admin"
-msgstr ""
+msgstr "管理員"
 
 #. module: mail
 #. odoo-python
@@ -1656,11 +1657,12 @@ msgstr ""
 msgid "Describe when this template should be used"
 msgstr ""
 
+# company wording
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/notification_model.js:0 model:ir.model.fields.selection,name:mail.selection__mail_mail__failure_type__mail_spam model:ir.model.fields.selection,name:mail.selection__mail_notification__failure_type__mail_spam
 msgid "Detected As Spam"
-msgstr ""
+msgstr "被判定為垃圾郵件"
 
 #. module: mail
 #. odoo-javascript
@@ -1816,10 +1818,11 @@ msgstr ""
 msgid "Duration"
 msgstr ""
 
+# company wording
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__ir_actions_server__activity_user_type__generic
 msgid "Dynamic User"
-msgstr ""
+msgstr "動態指定使用者"
 
 #. module: mail
 #. odoo-javascript
@@ -2560,10 +2563,11 @@ msgstr ""
 msgid "Load more... ("
 msgstr ""
 
+# company wording
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__ir_actions_server__state__log_note
 msgid "Log Note"
-msgstr ""
+msgstr "記錄備註"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_schedule_view_form model_terms:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
@@ -2721,10 +2725,11 @@ msgstr ""
 msgid "Message Notification"
 msgstr ""
 
+# company wording
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__ir_ui_view__technical_usage__mail_post_source
 msgid "Message Post Source"
-msgstr ""
+msgstr "訊息發布來源"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_message_subtype
@@ -2974,10 +2979,11 @@ msgstr ""
 msgid "No, go back"
 msgstr ""
 
+# company wording
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_activity__technical_usage__none
 msgid "Non Technical"
-msgstr ""
+msgstr "非技術用途"
 
 #. module: mail
 #. odoo-javascript
@@ -3185,10 +3191,11 @@ msgstr ""
 msgid "Out of Office"
 msgstr ""
 
+# company wording
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_message__message_type__out_of_office
 msgid "Out-of-office Message"
-msgstr ""
+msgstr "外出自動回覆"
 
 #. module: mail
 #. odoo-javascript
@@ -3926,11 +3933,12 @@ msgstr "傳送邀請"
 msgid "Send Invite again"
 msgstr ""
 
+# company wording
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/composer.js:0 model:ir.model.fields.selection,name:mail.selection__ir_actions_server__state__mail_post
 msgid "Send Message"
-msgstr ""
+msgstr "發送訊息"
 
 #. module: mail
 #. odoo-javascript
@@ -4054,10 +4062,11 @@ msgstr ""
 msgid "Speakers"
 msgstr ""
 
+# company wording
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__ir_actions_server__activity_user_type__role
 msgid "Specific Role"
-msgstr ""
+msgstr "特定角色"
 
 #. module: mail
 #. odoo-javascript

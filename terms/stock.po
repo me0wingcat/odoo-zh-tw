@@ -596,10 +596,11 @@ msgstr ""
 msgid "Current stock"
 msgstr ""
 
+# company wording
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_orderpoint_suggest__based_on__custom model:ir.model.fields.selection,name:stock.selection__stock_replenishment_info__based_on__custom model:ir.model.fields.selection,name:stock.selection__stock_warehouse_orderpoint__min_max_based_on__custom
 msgid "Custom Demand"
-msgstr ""
+msgstr "自訂需求"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_lot_label_layout__custom_quantity
@@ -636,10 +637,11 @@ msgstr ""
 msgid "Date if same"
 msgstr ""
 
+# company wording
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__wave_date_granularity__day
 msgid "Day"
-msgstr ""
+msgstr "日"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_replenishment_info__min_coverage
@@ -884,10 +886,11 @@ msgstr ""
 msgid "In Progress"
 msgstr ""
 
+# company wording
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_batch__state__in_progress
 msgid "In progress"
-msgstr ""
+msgstr "進行中"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_location_search
@@ -904,10 +907,11 @@ msgstr ""
 msgid "Inventory Route"
 msgstr ""
 
+# company wording
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__validate_button_style__invisible
 msgid "Invisible"
-msgstr ""
+msgstr "隱藏"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__is_date_editable
@@ -1060,10 +1064,11 @@ msgstr ""
 msgid "Manage your stock and logistics activities"
 msgstr ""
 
+# company wording
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__batch_creation_type__manual
 msgid "Manual Only"
-msgstr ""
+msgstr "僅手動"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
@@ -1156,10 +1161,11 @@ msgstr ""
 msgid "No backorder has been planned for undelivered demanded quantities: %s"
 msgstr ""
 
+# company wording
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__product_template__store_by__untracked model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid "None"
-msgstr ""
+msgstr "不追蹤"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
@@ -1339,10 +1345,11 @@ msgstr ""
 msgid "Presence depends on the operation category."
 msgstr ""
 
+# company wording
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__validate_button_style__primary model:ir.model.fields.selection,name:stock.selection__stock_picking_type__open_button_style__primary
 msgid "Primary"
-msgstr ""
+msgstr "主要"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_label_layout__print_packaging
@@ -1461,10 +1468,11 @@ msgstr ""
 msgid "Result Package ID"
 msgstr ""
 
+# company wording
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_package_type__package_use__reusable
 msgid "Reusable Box (totes)"
-msgstr ""
+msgstr "可重複使用箱（周轉箱）"
 
 #. module: stock
 #: model:ir.actions.server,name:stock.action_revert_move_line
@@ -1538,10 +1546,11 @@ msgstr ""
 msgid "Search Reference"
 msgstr ""
 
+# company wording
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__validate_button_style__secondary model:ir.model.fields.selection,name:stock.selection__stock_picking_type__open_button_style__secondary
 msgid "Secondary"
-msgstr ""
+msgstr "次要"
 
 #. module: stock
 #. odoo-javascript
@@ -1959,10 +1968,11 @@ msgstr ""
 msgid "Transfers in which the Package is set as Destination Package"
 msgstr ""
 
+# company wording
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_location__usage__transit
 msgid "Transit"
-msgstr ""
+msgstr "在途"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_stock_fleet
@@ -2052,10 +2062,11 @@ msgstr ""
 msgid "Wave Product Categories"
 msgstr ""
 
+# company wording
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__wave_date_granularity__week
 msgid "Week"
-msgstr ""
+msgstr "週"
 
 #. module: stock
 #. odoo-python
@@ -2229,15 +2240,17 @@ msgid ""
 "^FO5,60^A0N,30,24^FB366,1,0,C^FH^FD"
 msgstr ""
 
+# company wording
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_add_to_wave__mode__new model:ir.model.fields.selection,name:stock.selection__stock_picking_to_batch__mode__new
 msgid "a new batch transfer"
-msgstr ""
+msgstr "新的批量調撥"
 
+# company wording
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_add_to_wave__mode__existing model:ir.model.fields.selection,name:stock.selection__stock_picking_to_batch__mode__existing
 msgid "an existing batch transfer"
-msgstr ""
+msgstr "現有的批量調撥"
 
 #. module: stock
 #. odoo-python

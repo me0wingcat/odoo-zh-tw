@@ -7,3 +7,481 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_model_fields__index__btree
+msgid "B-tree"
+msgstr "B-tree 索引"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_model_fields__index__btree_not_null
+msgid "B-tree, excluding nulls"
+msgstr "B-tree 索引（排除空值）"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__bold
+msgid "Bold"
+msgstr "粗體"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__boxed
+msgid "Boxed"
+msgstr "方框"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__bubble
+msgid "Bubble"
+msgstr "圓角"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_ui_view__type__card
+msgid "Card"
+msgstr "卡片"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__column
+msgid "Column"
+msgstr "欄線"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__compact
+msgid "Compact"
+msgstr "緊湊"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__cd
+msgid "Create, Delete"
+msgstr "建立、刪除"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__cr
+msgid "Create, Read"
+msgstr "建立、讀取"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__crd
+msgid "Create, Read, Delete"
+msgstr "建立、讀取、刪除"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__cru
+msgid "Create, Read, Update"
+msgstr "建立、讀取、更新"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__crud
+msgid "Create, Read, Update, Delete"
+msgstr "建立、讀取、更新、刪除"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__cu
+msgid "Create, Update"
+msgstr "建立、更新"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__cud
+msgid "Create, Update, Delete"
+msgstr "建立、更新、刪除"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_lang__grouping__[3,2,0]
+msgid "Indian Grouping"
+msgstr "印度式分位"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_lang__grouping__[3,0]
+msgid "International Grouping"
+msgstr "國際式分位（每三位）"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__light
+msgid "Light"
+msgstr "淡色"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_users__role__group_user
+msgid "Light User"
+msgstr "輕量使用者"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__kind__permission model_terms:ir.ui.view,arch_db:base.ir_access_form_view
+msgid "Permission"
+msgstr "授權"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_users_apikeys_description__scope__rpc
+msgid "RPC"
+msgstr "RPC（外部程式介面）"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__rd
+msgid "Read, Delete"
+msgstr "讀取、刪除"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__ru
+msgid "Read, Update"
+msgstr "讀取、更新"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__rud
+msgid "Read, Update, Delete"
+msgstr "讀取、更新、刪除"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__kind__restriction model_terms:ir.ui.view,arch_db:base.ir_access_form_view
+msgid "Restriction"
+msgstr "限制"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__striped
+msgid "Striped"
+msgstr "斑馬紋"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_model_fields__translate__html_translate
+msgid "Translate HTML terms"
+msgstr "逐段翻譯（HTML）"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_model_fields__translate__xml_translate
+msgid "Translate XML terms"
+msgstr "逐段翻譯（XML）"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_model_fields__translate__standard
+msgid "Translate as a whole"
+msgstr "整體翻譯"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_model_fields__index__trigram
+msgid "Trigram"
+msgstr "Trigram 索引（模糊搜尋）"
+
+# company wording
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_access__operation__ud
+msgid "Update, Delete"
+msgstr "更新、刪除"
+
+# company wording
+#. module: mail
+#. odoo-javascript
+#: model:ir.model.fields.selection,name:mail.selection__discuss_channel_member__channel_role__admin
+msgid "Admin"
+msgstr "管理員"
+
+# company wording
+#. module: mail
+#. odoo-javascript
+#: model:ir.model.fields.selection,name:mail.selection__mail_mail__failure_type__mail_spam model:ir.model.fields.selection,name:mail.selection__mail_notification__failure_type__mail_spam
+msgid "Detected As Spam"
+msgstr "被判定為垃圾郵件"
+
+# company wording
+#. module: mail
+#: model:ir.model.fields.selection,name:mail.selection__ir_actions_server__activity_user_type__generic
+msgid "Dynamic User"
+msgstr "動態指定使用者"
+
+# company wording
+#. module: mail
+#: model:ir.model.fields.selection,name:mail.selection__ir_actions_server__state__log_note
+msgid "Log Note"
+msgstr "記錄備註"
+
+# company wording
+#. module: mail
+#: model:ir.model.fields.selection,name:mail.selection__ir_ui_view__technical_usage__mail_post_source
+msgid "Message Post Source"
+msgstr "訊息發布來源"
+
+# company wording
+#. module: mail
+#: model:ir.model.fields.selection,name:mail.selection__mail_activity__technical_usage__none
+msgid "Non Technical"
+msgstr "非技術用途"
+
+# company wording
+#. module: mail
+#: model:ir.model.fields.selection,name:mail.selection__mail_message__message_type__out_of_office
+msgid "Out-of-office Message"
+msgstr "外出自動回覆"
+
+# company wording
+#. module: mail
+#. odoo-javascript
+#: model:ir.model.fields.selection,name:mail.selection__ir_actions_server__state__mail_post
+msgid "Send Message"
+msgstr "發送訊息"
+
+# company wording
+#. module: mail
+#: model:ir.model.fields.selection,name:mail.selection__ir_actions_server__activity_user_type__role
+msgid "Specific Role"
+msgstr "特定角色"
+
+# company wording
+#. module: product
+#: model:ir.model.fields.selection,name:product.selection__mrp_finished_product_label_layout__zpl_template__alternative model:ir.model.fields.selection,name:product.selection__product_label_layout__zpl_template__alternative
+msgid "Alternative (2.00\" x 1.00\")"
+msgstr "替代尺寸（2.00\" x 1.00\"）"
+
+# company wording
+#. module: product
+#: model:ir.model.fields.selection,name:product.selection__mrp_finished_product_label_layout__barcode_format__barcode model:ir.model.fields.selection,name:product.selection__product_label_layout__barcode_format__barcode
+msgid "Barcode 1D"
+msgstr "一維條碼"
+
+# company wording
+#. module: product
+#: model:ir.model.fields.selection,name:product.selection__mrp_finished_product_label_layout__zpl_template__jewelry model:ir.model.fields.selection,name:product.selection__product_label_layout__zpl_template__jewelry
+msgid "Jewelry (2.20\" x 0.50\")"
+msgstr "珠寶標籤（2.20\" x 0.50\"）"
+
+# company wording
+#. module: product
+#: model:ir.model.fields.selection,name:product.selection__mrp_finished_product_label_layout__zpl_template__normal model:ir.model.fields.selection,name:product.selection__product_label_layout__zpl_template__normal
+msgid "Normal (2.25\" x 1.25\")"
+msgstr "標準（2.25\" x 1.25\"）"
+
+# company wording
+#. module: product
+#: model:ir.model.fields.selection,name:product.selection__mrp_finished_product_label_layout__barcode_format__qr model:ir.model.fields.selection,name:product.selection__product_label_layout__barcode_format__qr
+msgid "QR Code"
+msgstr "QR 碼"
+
+# company wording
+#. module: product
+#: model:ir.model.fields.selection,name:product.selection__product_attribute__display_type__range
+msgid "Range"
+msgstr "範圍"
+
+# company wording
+#. module: product
+#: model:ir.model.fields.selection,name:product.selection__mrp_finished_product_label_layout__zpl_template__small model:ir.model.fields.selection,name:product.selection__product_label_layout__zpl_template__small
+msgid "Small (1.25\" x 1.00\")"
+msgstr "小型（1.25\" x 1.00\"）"
+
+# company wording
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_pricelist_item__price_markup model:ir.model.fields.selection,name:product.selection__product_pricelist_item__compute_price__markup model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
+msgid "Surcharge"
+msgstr "加價"
+
+# company wording
+#. module: product
+#: model:ir.model.fields.selection,name:product.selection__mrp_finished_product_label_layout__print_format__zpl model:ir.model.fields.selection,name:product.selection__product_label_layout__print_format__zpl
+msgid "ZPL Labels"
+msgstr "ZPL 標籤（熱感印表機）"
+
+# company wording
+#. module: purchase
+#: model:ir.model.fields.selection,name:purchase.selection__purchase_order__receipt_status__full
+msgid "Fully Received"
+msgstr "已全部收貨"
+
+# company wording
+#. module: purchase
+#: model:ir.model.fields.selection,name:purchase.selection__purchase_order__receipt_status__pending
+msgid "Not Received"
+msgstr "尚未收貨"
+
+# company wording
+#. module: purchase
+#: model:ir.model.fields.selection,name:purchase.selection__purchase_order__receipt_status__partial
+msgid "Partially Received"
+msgstr "部分收貨"
+
+# company wording
+#. module: purchase
+#: model:ir.model.fields.selection,name:purchase.selection__purchase_order_line__display_type__line_subsection
+msgid "Subsection"
+msgstr "子章節"
+
+# company wording
+#. module: purchase
+#: model:ir.model.fields.selection,name:purchase.selection__purchase_order__document_tax_mode__tax_excluded
+msgid "Tax Excl."
+msgstr "未稅"
+
+# company wording
+#. module: purchase
+#: model:ir.model.fields.selection,name:purchase.selection__purchase_order__document_tax_mode__tax_included
+msgid "Tax Incl."
+msgstr "含稅"
+
+# company wording
+#. module: purchase_stock
+#: model:ir.model.fields.selection,name:purchase_stock.selection__res_partner__group_rfq__default
+msgid "On Order"
+msgstr "依訂單"
+
+# company wording
+#. module: resource
+#: model:ir.model.fields.selection,name:resource.selection__resource_calendar_leaves__count_as__absence
+msgid "Absence"
+msgstr "缺勤"
+
+# company wording
+#. module: resource
+#: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__recurrency_type__days
+msgid "Days"
+msgstr "天"
+
+# company wording
+#. module: resource
+#: model:ir.model.fields.selection,name:resource.selection__resource_calendar__calendar_type__fixed
+msgid "Fixed"
+msgstr "固定班表"
+
+# company wording
+#. module: resource
+#: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__recurrency_end_type__forever
+msgid "Forever"
+msgstr "永不結束"
+
+# company wording
+#. module: resource
+#: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__recurrency_end_type__times
+msgid "Occurrences"
+msgstr "重複次數"
+
+# company wording
+#. module: resource
+#: model:ir.model.fields.selection,name:resource.selection__resource_calendar__calendar_type__undefined
+msgid "Undefined"
+msgstr "未定義"
+
+# company wording
+#. module: resource
+#: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__recurrency_end_type__date
+msgid "Until"
+msgstr "直到指定日期"
+
+# company wording
+#. module: resource
+#: model:ir.model.fields.selection,name:resource.selection__resource_calendar__calendar_type__variable
+msgid "Variable"
+msgstr "變動班表"
+
+# company wording
+#. module: resource
+#: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__recurrency_type__weeks
+msgid "Weeks"
+msgstr "週"
+
+# company wording
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__stock_orderpoint_suggest__based_on__custom model:ir.model.fields.selection,name:stock.selection__stock_replenishment_info__based_on__custom model:ir.model.fields.selection,name:stock.selection__stock_warehouse_orderpoint__min_max_based_on__custom
+msgid "Custom Demand"
+msgstr "自訂需求"
+
+# company wording
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__wave_date_granularity__day
+msgid "Day"
+msgstr "日"
+
+# company wording
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__stock_picking_batch__state__in_progress
+msgid "In progress"
+msgstr "進行中"
+
+# company wording
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__stock_picking__validate_button_style__invisible
+msgid "Invisible"
+msgstr "隱藏"
+
+# company wording
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__batch_creation_type__manual
+msgid "Manual Only"
+msgstr "僅手動"
+
+# company wording
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__product_template__store_by__untracked model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
+msgid "None"
+msgstr "不追蹤"
+
+# company wording
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__stock_picking__validate_button_style__primary model:ir.model.fields.selection,name:stock.selection__stock_picking_type__open_button_style__primary
+msgid "Primary"
+msgstr "主要"
+
+# company wording
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__stock_package_type__package_use__reusable
+msgid "Reusable Box (totes)"
+msgstr "可重複使用箱（周轉箱）"
+
+# company wording
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__stock_picking__validate_button_style__secondary model:ir.model.fields.selection,name:stock.selection__stock_picking_type__open_button_style__secondary
+msgid "Secondary"
+msgstr "次要"
+
+# company wording
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__stock_location__usage__transit
+msgid "Transit"
+msgstr "在途"
+
+# company wording
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__wave_date_granularity__week
+msgid "Week"
+msgstr "週"
+
+# company wording
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__stock_add_to_wave__mode__new model:ir.model.fields.selection,name:stock.selection__stock_picking_to_batch__mode__new
+msgid "a new batch transfer"
+msgstr "新的批量調撥"
+
+# company wording
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__stock_add_to_wave__mode__existing model:ir.model.fields.selection,name:stock.selection__stock_picking_to_batch__mode__existing
+msgid "an existing batch transfer"
+msgstr "現有的批量調撥"
+
+# company wording
+#. module: stock_account
+#. odoo-python
+#: model:ir.model,name:stock_account.model_product_value model:ir.model.fields,field_description:stock_account.field_account_bank_statement_line__product_value_id model:ir.model.fields,field_description:stock_account.field_account_move__product_value_id model:ir.model.fields,field_description:stock_account.field_stock_move__product_value_ids model:ir.model.fields.selection,name:stock_account.selection__stock_avco_report__res_model_name__product_value
+msgid "Product Value"
+msgstr "產品價值"

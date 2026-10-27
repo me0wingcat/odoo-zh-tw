@@ -622,15 +622,17 @@ msgstr ""
 msgid "Azure Interior brings honesty and seriousness to wood industry while helping customers deal with trees, flowers and fungi."
 msgstr "Azure Interior 在幫助客戶處理樹木、花卉和真菌的同時，為木材行業帶來誠實和認真."
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_model_fields__index__btree
 msgid "B-tree"
-msgstr ""
+msgstr "B-tree 索引"
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_model_fields__index__btree_not_null
 msgid "B-tree, excluding nulls"
-msgstr ""
+msgstr "B-tree 索引（排除空值）"
 
 #. module: base
 #. odoo-python
@@ -729,15 +731,17 @@ msgid ""
 "%s"
 msgstr ""
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__bold
 msgid "Bold"
-msgstr ""
+msgstr "粗體"
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__boxed
 msgid "Boxed"
-msgstr ""
+msgstr "方框"
 
 #. module: base
 #. odoo-python
@@ -792,10 +796,11 @@ msgstr ""
 msgid "Brønnøysund nr"
 msgstr ""
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__bubble
 msgid "Bubble"
-msgstr ""
+msgstr "圓角"
 
 #. module: base
 #. odoo-python
@@ -864,10 +869,11 @@ msgstr ""
 msgid "Cannot update a record without specifying its id or xml_id"
 msgstr ""
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_ui_view__type__card
 msgid "Card"
-msgstr ""
+msgstr "卡片"
 
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.demo_company_id
@@ -909,10 +915,11 @@ msgstr ""
 "                 尤其是出售捕鼠器。 用那個把戲他砍了\n"
 "                 IT 預算在過去 2 年內減少了近一半."
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__column
 msgid "Column"
-msgstr ""
+msgstr "欄線"
 
 # suggestion from previous Odoo version
 #. module: base
@@ -927,10 +934,11 @@ msgstr "歡迎觀看我們的直播，希望見到你！"
 msgid "Commercial Registration Number"
 msgstr ""
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__compact
 msgid "Compact"
-msgstr ""
+msgstr "緊湊"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_currency_rate__company_currency_id
@@ -996,40 +1004,47 @@ msgstr ""
 msgid "Create %(model_name)s"
 msgstr "創建 %(model_name)s"
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_access__operation__cd
 msgid "Create, Delete"
-msgstr ""
+msgstr "建立、刪除"
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_access__operation__cr
 msgid "Create, Read"
-msgstr ""
+msgstr "建立、讀取"
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_access__operation__crd
 msgid "Create, Read, Delete"
-msgstr ""
+msgstr "建立、讀取、刪除"
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_access__operation__cru
 msgid "Create, Read, Update"
-msgstr ""
+msgstr "建立、讀取、更新"
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_access__operation__crud
 msgid "Create, Read, Update, Delete"
-msgstr ""
+msgstr "建立、讀取、更新、刪除"
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_access__operation__cu
 msgid "Create, Update"
-msgstr ""
+msgstr "建立、更新"
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_access__operation__cud
 msgid "Create, Update, Delete"
-msgstr ""
+msgstr "建立、更新、刪除"
 
 #. module: base
 #. odoo-python
@@ -1625,10 +1640,11 @@ msgstr ""
 msgid "Index"
 msgstr ""
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_lang__grouping__[3,2,0]
 msgid "Indian Grouping"
-msgstr ""
+msgstr "印度式分位"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_groups__share
@@ -1646,10 +1662,11 @@ msgstr ""
 msgid "Installing"
 msgstr ""
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_lang__grouping__[3,0]
 msgid "International Grouping"
-msgstr ""
+msgstr "國際式分位（每三位）"
 
 #. module: base
 #. odoo-python
@@ -1849,15 +1866,17 @@ msgstr ""
 msgid "Leitweg-ID"
 msgstr ""
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__light
 msgid "Light"
-msgstr ""
+msgstr "淡色"
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_users__role__group_user
 msgid "Light User"
-msgstr ""
+msgstr "輕量使用者"
 
 #. module: base
 #. odoo-python
@@ -2310,10 +2329,11 @@ msgstr ""
 msgid "Payment Custom"
 msgstr ""
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_access__kind__permission model_terms:ir.ui.view,arch_db:base.ir_access_form_view
 msgid "Permission"
-msgstr ""
+msgstr "授權"
 
 # suggestion from previous Odoo version
 #. module: base
@@ -2432,25 +2452,29 @@ msgstr ""
 msgid "RO1234567897 or 8001011234567 or 9000123456789"
 msgstr ""
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_users_apikeys_description__scope__rpc
 msgid "RPC"
-msgstr ""
+msgstr "RPC（外部程式介面）"
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_access__operation__rd
 msgid "Read, Delete"
-msgstr ""
+msgstr "讀取、刪除"
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_access__operation__ru
 msgid "Read, Update"
-msgstr ""
+msgstr "讀取、更新"
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_access__operation__rud
 msgid "Read, Update, Delete"
-msgstr ""
+msgstr "讀取、更新、刪除"
 
 #. module: base
 #. odoo-python
@@ -2526,10 +2550,11 @@ msgstr ""
 msgid "Restore Revision"
 msgstr ""
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_access__kind__restriction model_terms:ir.ui.view,arch_db:base.ir_access_form_view
 msgid "Restriction"
-msgstr ""
+msgstr "限制"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.ir_access_form_view
@@ -2798,10 +2823,11 @@ msgstr ""
 msgid "Stringified Python variable value. Supported types: str, bool, int, float. Blank means undefined."
 msgstr ""
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_company__report_tables_id__striped
 msgid "Striped"
-msgstr ""
+msgstr "斑馬紋"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
@@ -3077,20 +3103,23 @@ msgstr ""
 msgid "Trade Registry Number"
 msgstr ""
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_model_fields__translate__html_translate
 msgid "Translate HTML terms"
-msgstr ""
+msgstr "逐段翻譯（HTML）"
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_model_fields__translate__xml_translate
 msgid "Translate XML terms"
-msgstr ""
+msgstr "逐段翻譯（XML）"
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_model_fields__translate__standard
 msgid "Translate as a whole"
-msgstr ""
+msgstr "整體翻譯"
 
 #. module: base
 #. odoo-python
@@ -3139,10 +3168,11 @@ msgstr ""
 msgid "Triggered Action"
 msgstr ""
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_model_fields__index__trigram
 msgid "Trigram"
-msgstr ""
+msgstr "Trigram 索引（模糊搜尋）"
 
 #. module: base
 #. odoo-python
@@ -3257,10 +3287,11 @@ msgstr "更新 %(model_name)s"
 msgid "Update Preferences"
 msgstr ""
 
+# company wording
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_access__operation__ud
 msgid "Update, Delete"
-msgstr ""
+msgstr "更新、刪除"
 
 #. module: base
 #. odoo-python

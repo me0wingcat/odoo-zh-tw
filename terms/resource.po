@@ -70,10 +70,11 @@ msgstr ""
 msgid "A recurrency should finish after the first occurence"
 msgstr ""
 
+# company wording
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_leaves__count_as__absence
 msgid "Absence"
-msgstr ""
+msgstr "缺勤"
 
 #. module: resource
 #. odoo-javascript
@@ -133,10 +134,11 @@ msgstr ""
 msgid "Country Code"
 msgstr ""
 
+# company wording
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__recurrency_type__days
 msgid "Days"
-msgstr ""
+msgstr "天"
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__days_per_week
@@ -170,15 +172,17 @@ msgstr ""
 msgid "Duration Based"
 msgstr ""
 
+# company wording
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar__calendar_type__fixed
 msgid "Fixed"
-msgstr ""
+msgstr "固定班表"
 
+# company wording
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__recurrency_end_type__forever
 msgid "Forever"
-msgstr ""
+msgstr "永不結束"
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__full_time_required_hours
@@ -234,10 +238,11 @@ msgstr ""
 msgid "Number of days or weeks between each occurrence."
 msgstr ""
 
+# company wording
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__recurrency_end_type__times
 msgid "Occurrences"
-msgstr ""
+msgstr "重複次數"
 
 #. module: resource
 #. odoo-python
@@ -364,20 +369,23 @@ msgstr ""
 msgid "Total duration of attendances cannot exceed 24 hours"
 msgstr ""
 
+# company wording
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar__calendar_type__undefined
 msgid "Undefined"
-msgstr ""
+msgstr "未定義"
 
+# company wording
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__recurrency_end_type__date
 msgid "Until"
-msgstr ""
+msgstr "直到指定日期"
 
+# company wording
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar__calendar_type__variable
 msgid "Variable"
-msgstr ""
+msgstr "變動班表"
 
 #. module: resource
 #. odoo-javascript
@@ -385,10 +393,11 @@ msgstr ""
 msgid "Variable (%(hours)sh on %(days)s days / week)"
 msgstr ""
 
+# company wording
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__recurrency_type__weeks
 msgid "Weeks"
-msgstr ""
+msgstr "週"
 
 #. module: resource
 #. odoo-javascript
